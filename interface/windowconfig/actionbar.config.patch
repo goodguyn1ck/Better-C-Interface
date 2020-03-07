@@ -1,0 +1,120 @@
+[
+  {
+    "op": "replace",
+    "path": "/actionBarSelectOffset/0",
+    "value": -2
+  },
+  {
+    "op": "replace",
+    "path": "/actionBarSelectOffset/1",
+    "value": -5
+  },
+  {
+    "op": "add",
+    "path": "/paneLayout/panefeature/offset",
+    "value": [
+      0,
+      -10
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar1R/position/0",
+    "value": 32
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar1ROverlay/position/0",
+    "value": 32
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar2R/position/0",
+    "value": 75
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar2ROverlay/position/0",
+    "value": 75
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar3R/position/0",
+    "value": 118
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar3ROverlay/position/0",
+    "value": 118
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar4R/position/0",
+    "value": 245
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar4ROverlay/position/0",
+    "value": 245
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar5R/position/0",
+    "value": 288
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar5ROverlay/position/0",
+    "value": 288
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar6R/position/0",
+    "value": 331
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/customBar6ROverlay/position/0",
+    "value": 331
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/essentialBar1/position/1",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/essentialBar2/position/1",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/essentialBar3/position/1",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/essentialBar4/position/1",
+    "value": 6
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/essentialSelect/visible",
+    "value": true
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/pickupToActionBar/position/0",
+    "value": 351
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/swapCustomBar/position/0",
+    "value": 2
+  },
+  {
+    "op": "replace",
+    "path": "/paneLayout/swapCustomBar/position/1",
+    "value": 16
+  }
+]

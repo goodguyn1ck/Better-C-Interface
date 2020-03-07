@@ -1,0 +1,9 @@
+headarmours
+chestarmours
+legarmours
+hazardgear
+meleeweapons
+rangedweapons
+toyweapons
+consumables
+shields

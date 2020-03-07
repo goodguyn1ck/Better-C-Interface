@@ -1,0 +1,11 @@
+{
+  "author" : "Nick Freeman",
+  "description" : "Action bar, inventory monster health bar & breath affected. No more rarity overlays.\nItem pick up pop ups also transparent and quicker.\n\nItem icons is not published, it's my own resprite. I will release em' later.\n\nFor those who play solo, and want hp to be like on screenshots, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1646991918]here[/url] you go.\n\nStorage interface is an unfinished reskin of Enchanced Storage mod from neo.\n\nQuickbar Mini supported too.\n\nScreenshots of Better (C) Interface together:\n1. Vanilla\n2. Players inventory reskin.\n3. Fully(!) transparent chat & main menu like pause menu.\n4. Item tooltip. (Separate mod. \"[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1600330965]Better (C) Item Tooltips[/url]\")\n5. Storage window reskin for Enhanced Storage. Requires both original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=731220462]Enhanced Storage[/url] & [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1650463229]my patch[/url].",
+  "friendlyName" : "Better (C) Interface v34 (WIP)",
+  "link" : "steam://url/CommunityFilePage/1550987556",
+  "name" : "ggn_interface",
+  "priority" : 5,
+  "steamContentId" : "1550987556",
+  "tags" : "User Interface",
+  "version" : "34"
+}

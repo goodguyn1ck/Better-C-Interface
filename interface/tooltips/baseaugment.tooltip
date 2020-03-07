@@ -1,0 +1,66 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/headertile.png",
+    "fileBody" : "/interface/tooltips/bodyaugment.png",
+    "fileFooter" : "/interface/tooltips/footertile.png"
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [134, 44],
+    "hAnchor" : "right",
+    "centered" : true,
+	"color" : "gray",
+    "wrapWidth" : 126,
+	"fontSize" : 6	
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [8, 9],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [21, 9],
+    "hAnchor" : "left",
+    "value" : "0",
+    "fontSize" : 7
+  },
+  "nameLabel" : {
+    "type" : "label",
+    "position" : [136, 9],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126,
+    "fontSize" : 7
+  }, 
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [12, 83],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 120,
+	"color" : "gray",
+	"fontSize" : 6	
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [72, 123],
+    "file" : "",	
+    "centered" : true,
+    "maxSize" : [70, 54],
+    "minSize" : [70, 54]
+  },
+  "augmentIconImage" : {
+    "type" : "image",
+    "position" : [12, 23],
+    "zlevel" : 3,
+    "file" : ""
+  },
+  "augmentNameLabel" : {
+    "type" : "label",
+    "position" : [40, 27],
+    "value" : "",
+	"fontSize" : 7
+  }
+}

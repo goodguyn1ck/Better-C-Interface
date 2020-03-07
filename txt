@@ -1,0 +1,8 @@
+  "font" : {
+    "baseSize" : 8,
+    "itemSize" : 7,
+    "nameSize" : 8,
+    "buttonSize" : 8,
+    "planetSize" : 24,
+    "defaultColor" : [255, 255, 255]
+  },

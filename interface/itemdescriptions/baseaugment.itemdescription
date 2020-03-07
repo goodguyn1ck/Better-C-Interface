@@ -1,0 +1,69 @@
+{
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [12, 3],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [25, 3],
+    "hAnchor" : "left",
+	"fontSize" : 7
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [16, 137],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 122,
+	"fontSize" : 7
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [76, 180],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [50, 40],
+    "minSize" : [50, 40]
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [137, 21],
+    "hAnchor" : "right",
+    "centered" : true,
+	"color" : "gray",
+    "wrapWidth" : 126,
+	"fontSize" : 7
+  },
+  "title" : {
+    "type" : "label",
+    "position" : [35, 233],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "subTitle" : {
+    "type" : "label",
+    "position" : [35, 223],
+    "hAnchor" : "left",
+    "color" : [185, 181, 178],
+    "value" : ""
+  },
+  "nameLabel" : {
+    "type" : "label",
+    "position" : [141, 3],
+    "hAnchor" : "right",
+    "centered" : true,
+	"fontSize" : 7,
+	"color" : "gray",	
+    "wrapWidth" : 126
+  },
+  "titleIcon" : {
+    "type" : "itemslot",
+    "position" : [10, 221],
+    "callback" : "null",
+    "iconMode" : true,
+    "backingImage" : "/interface/inventory/portrait.png",
+    "showRarity" : false,
+    "showBackingImageWhenFull" : true
+  }
+}

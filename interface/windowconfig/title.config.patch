@@ -1,0 +1,111 @@
+[
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/0/offset/0",
+    "value": -1
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/0/offset/1",
+    "value": 107
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/1/offset/0",
+    "value": -1
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/1/offset/1",
+    "value": 82
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/2/offset/0",
+    "value": -1
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/2/offset/1",
+    "value": 57
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/3/key",
+    "value": "mods"
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/3/button",
+    "value": "/interface/title/mods.png"
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/3/hover",
+    "value": "/interface/title/modsover.png"
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/3/offset/0",
+    "value": -1
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/3/offset/1",
+    "value": 32
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/4/key",
+    "value": "quit"
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/4/button",
+    "value": "/interface/title/quit.png"
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/4/hover",
+    "value": "/interface/title/quitover.png"
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/4/offset/0",
+    "value": -1
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/4/offset/1",
+    "value": 7
+  },
+  {
+    "op": "remove",
+    "path": "/mainMenuButtons/5/rightAnchored"
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/5/key",
+    "value": "back"
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/5/button",
+    "value": "/interface/title/back.png"
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/5/hover",
+    "value": "/interface/title/backover.png"
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/5/offset/0",
+    "value": -1
+  },
+  {
+    "op": "replace",
+    "path": "/mainMenuButtons/5/offset/1",
+    "value": 7
+  }
+]

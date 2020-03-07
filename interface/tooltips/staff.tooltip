@@ -1,0 +1,122 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/headertile.png",
+    "fileBody" : "/interface/tooltips/bodymech.png",
+    "fileFooter" : "/interface/tooltips/footertile.png"
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [134, 22],
+    "hAnchor" : "right",
+    "centered" : true,
+	"color" : "gray",
+    "wrapWidth" : 126,
+	"fontSize" : 6	
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [8, 9],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [21, 9],
+    "hAnchor" : "left",
+    "value" : "0",
+	"fontSize" : 7		
+  },
+  "nameLabel" : {
+    "type" : "label",
+    "position" : [136, 9],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126,
+	"fontSize" : 7		
+  },  
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [12, 58],
+    "wrapWidth" : 120,
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+	"color" : "gray",
+	"fontSize" : 6	
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [72, 123],
+    "file" : "",
+    "hAnchor" : "mid",	
+    "centered" : true,
+    "maxSize" : [40, 40],
+    "minSize" : [40, 40]
+  },
+  "primaryAbilityTitleLabel" : {
+    "type" : "label",
+    "position" : [12, 74],
+    "hAnchor" : "left",
+    "value" : "",
+	"color" : "gray",
+	"fontSize" : 7	
+  },
+  "primaryAbilityLabel" : {
+    "type" : "label",
+    "position" : [134, 74],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+	"color" : "gray",
+	"fontSize" : 7		
+  },
+  "altAbilityTitleLabel" : {
+    "type" : "label",
+    "position" : [12, 87],
+    "hAnchor" : "left",
+    "value" : "",
+	"color" : "gray",
+	"fontSize" : 7	
+  },
+  "altAbilityLabel" : {
+    "type" : "label",
+    "position" : [134, 87],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126,
+	"color" : "gray",
+	"fontSize" : 7	
+  },
+  "levelTitleLabel" : {
+    "type" : "label",
+    "position" : [12, 64],
+    "hAnchor" : "left",
+    "value" : "Level:",
+	"color" : "gray",
+	"fontSize" : 7	
+  },
+  "levelLabel" : {
+    "type" : "label",
+    "position" : [134, 64],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+	"fontSize" : 7,
+	"color" : "gray",
+    "value" : ""
+  },
+  "handednessLabel" : {
+    "type" : "label",
+    "position" : [72, 149],
+    "hAnchor" : "mid",
+    "centered" : true,
+	"color" : "gray",
+	"fontSize" : 6	
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [125, 146],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16],
+	"fontSize" : 7	
+  }	
+}

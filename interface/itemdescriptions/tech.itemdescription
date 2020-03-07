@@ -1,0 +1,25 @@
+{
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [16, 105],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 122,
+	"fontSize" : 6
+  },
+  "title" : {
+    "type" : "label",
+    "position" : [35, 233],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "titleIcon" : {
+    "type" : "itemslot",
+    "position" : [10, 221],
+    "callback" : "null",
+    "iconMode" : true,
+    "backingImage" : "/interface/inventory/portrait.png",
+    "showRarity" : false,
+    "showBackingImageWhenFull" : true
+  }
+}

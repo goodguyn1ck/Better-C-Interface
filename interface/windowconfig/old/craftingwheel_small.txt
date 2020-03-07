@@ -1,0 +1,319 @@
+{
+  "filter" : [ ],
+  "titleFromEntity" : true,
+  "requiresBlueprint" : true,
+  "craftingSound" : "/sfx/interface/crafting_wheel.ogg",
+  "paneLayout" : {
+    "background" : {
+      "type" : "background",
+      "fileHeader" : "/interface/crafting/craftingheader2.png",
+      "fileBody" : "/interface/crafting/craftingbody2.png",
+      "fileFooter" : "/interface/crafting/craftingfooter2.png"
+    },
+    "close" : {
+      "type" : "button",
+      "base" : "/interface/x.png",
+      "hover" : "/interface/xhover.png",
+      "pressed" : "/interface/xpress.png",
+      "pressedOffset" : [0, 0],
+      "position" : [347, 247]
+    },
+    "windowtitle" : {
+      "type" : "title",
+      "title" : "SPINNING WHEEL",
+      "subtitle" : "Strands and threads",
+      "position" : [-5, 252],
+      "icon" : {
+        "type" : "image",
+        "file" : "/interface/crafting/craftingwheel.png",
+        "position" : [0, -20],
+        "zlevel" : -1
+      }
+    },
+    "btnUpgrade" : {
+      "type" : "button",
+      "disabledImage" : "/interface/crafting/upgradeUnready.png",
+      "base" : "/interface/crafting/upgradeReady.png",
+      "position" : [151, 245],
+      "zlevel" : 5
+    },
+    "spinCount" : {
+      "type" : "spinner",
+      "position" : [249, 29],
+      "upOffset" : 36
+    },
+    "tbSpinCount" : {
+      "type" : "textbox",
+      "position" : [261, 29],
+      "textAlign" : "center",
+      "maxWidth" : 16,
+      "regex" : "x?\\d{0,4}",
+      "hint" : ""
+    },
+    "imgAmountInput" : {
+      "type" : "image",
+      "file" : "/interface/crafting/amount.png",
+      "position" : [254, 28],
+      "zlevel" : -3
+    },
+    "btnCraft" : {
+      "type" : "button",
+      "base" : "/interface/button.png",
+      "hover" : "/interface/buttonhover.png",
+      "position" : [297, 26],
+      "caption" : "Craft"
+    },
+    "btnStopCraft" : {
+      "type" : "button",
+      "base" : "/interface/buttonactive.png",
+      "hover" : "/interface/buttonactivehover.png",
+      "position" : [297, 26],
+      "caption" : "Stop"
+    },
+    "imgCraftBg" : {
+      "type" : "image",
+      "file" : "/interface/crafting/bp_craftbg.png",
+      "position" : [221, 21],
+      "zlevel" : -5
+    },
+    "currentRecipeIcon" : {
+      "type" : "itemslot",
+      "callback" : "null",
+      "position" : [225, 24]
+    },
+    "btnFilterHaveMaterials" : {
+      "type" : "button",
+      "base" : "/interface/crafting/bc_checkbox/bc_checkboxnocheck.png",
+      "baseImageChecked" : "/interface/crafting/bc_checkbox/bc_checkboxcheck.png",
+      "hover" : "/interface/crafting/bc_checkbox/bc_checkboxnocheckhover.png",
+      "hoverImageChecked" : "/interface/crafting/bc_checkbox/bc_checkboxcheckhover.png",
+      "pressedOffset" : [0, 0],
+      "checkable" : true,
+      "checked" : false,
+      "position" : [7, 9]
+    },
+    "lblProduct" : {
+      "type" : "label",
+      "position" : [20, 9],
+      "hAnchor" : "left",
+      "value" : "MATERIALS AVAILABLE"
+    },
+    "scrollArea" : {
+      "type" : "scrollArea",
+      "rect" : [31, 28, 219, 233],
+      "children" : {
+        "itemList" : {
+          "type" : "list",
+          "schema" : {
+            "selectedBG" : "/interface/crafting/bp_craftableselected2.png",
+            "unselectedBG" : "/interface/crafting/bp_craftablebackground.png",
+            "spacing" : [0, 1],
+            "memberSize" : [180, 20],
+            "listTemplate" : {
+              "background" : {
+                "type" : "image",
+                "file" : "/interface/crafting/bp_craftablebackground.png",
+                "position" : [2, 0],
+                "zlevel" : -1
+              },
+              "itemName" : {
+                "type" : "label",
+                "position" : [25, 5],
+                "hAnchor" : "left",
+                "wrapWidth" : 145,
+                "value" : "Replace Me"
+              },
+              "itemIcon" : {
+                "type" : "itemslot",
+                "position" : [3, 1],
+                "callback" : "null"
+              },
+              "newIcon" : {
+                "type" : "image",
+                "position" : [140, 5],
+                "file" : "/interface/crafting/new.png",
+                "zlevel" : 2
+              },
+              "moneyIcon" : {
+                "type" : "image",
+                "position" : [160, 5],
+                "file" : "/interface/money2.png"
+              },
+              "priceLabel" : {
+                "type" : "label",
+                "position" : [160, 5],
+                "hAnchor" : "right",
+                "value" : "0"
+              },
+              "notcraftableoverlay" : {
+                "type" : "image",
+                "file" : "/interface/crafting/bp_notcraftableoverlay.png",
+                "position" : [2, 0],
+                "zlevel" : 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "description" : {
+      "type" : "widget",
+      "position" : [216, 21],
+      "size" : [140, 225]
+    },
+    "filter" : {
+      "type" : "textbox",
+      "position" : [235, 225],
+      "hint" : "Search",
+      "maxWidth" : 118,
+      "escapeKey" : "close",
+      "enterKey" : "filter",
+      "focus" : false
+    },
+    "categories" : {
+      "type" : "radioGroup",
+      "toggleMode" : false,
+      "buttons" : [
+        {
+          "selected" : true,
+          "position" : [7, 215],
+		  "pressedOffset" : [1, 0],		  
+          "baseImage" : "/interface/crafting/buttons/craftingwheel/wheel_bi_1.png",
+          "baseImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_hic_1.png",
+		  "hoverImage" : "/interface/crafting/buttons/craftingwheel/wheel_hi_1.png",
+          "hoverImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_bic_1.png",
+          "data" : {
+            "filter" : [ "ingredients" ]
+          }
+        },
+        {
+          "position" : [7, 197],
+		  "pressedOffset" : [1, 0],		  
+          "baseImage" : "/interface/crafting/buttons/craftingwheel/wheel_bi_2.png",
+          "baseImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_hic_2.png",
+		  "hoverImage" : "/interface/crafting/buttons/craftingwheel/wheel_hi_2.png",
+          "hoverImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_bic_2.png",
+          "data" : {
+            "filter" : [ "vanityHead" ]
+          }
+        },
+        {
+          "position" : [7, 179],
+		  "pressedOffset" : [1, 0],		  
+          "baseImage" : "/interface/crafting/buttons/craftingwheel/wheel_bi_3.png",
+          "baseImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_hic_3.png",
+		  "hoverImage" : "/interface/crafting/buttons/craftingwheel/wheel_hi_3.png",
+          "hoverImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_bic_3.png",
+          "data" : {
+            "filter" : [ "vanityChest" ]
+          }
+        },
+        {
+          "position" : [7, 161],
+		  "pressedOffset" : [1, 0],		  
+          "baseImage" : "/interface/crafting/buttons/craftingwheel/wheel_bi_4.png",
+          "baseImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_hic_4.png",
+		  "hoverImage" : "/interface/crafting/buttons/craftingwheel/wheel_hi_4.png",
+          "hoverImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_bic_4.png",
+          "data" : {
+            "filter" : [ "vanityLegs" ]
+          }
+        },
+        {
+          "position" : [7, 143],
+		  "pressedOffset" : [1, 0],		  
+          "baseImage" : "/interface/crafting/buttons/craftingwheel/wheel_bi_5.png",
+          "baseImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_hic_5.png",
+		  "hoverImage" : "/interface/crafting/buttons/craftingwheel/wheel_hi_5.png",
+          "hoverImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_bic_5.png",
+          "data" : {
+            "filter" : [ "vanityBack" ]
+          }
+        },		
+        {
+          "position" : [7, 125],
+		  "pressedOffset" : [1, 0],		  
+          "baseImage" : "/interface/crafting/buttons/craftingwheel/wheel_bi_6.png",
+          "baseImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_hic_6.png",
+		  "hoverImage" : "/interface/crafting/buttons/craftingwheel/wheel_hi_6.png",
+          "hoverImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_bic_6.png",
+          "data" : {
+            "filter" : [ "dyes" ]
+          }
+        },
+        {
+          "position" : [7, 107],
+		  "pressedOffset" : [1, 0],		  
+          "baseImage" : "/interface/crafting/buttons/craftingwheel/wheel_bi_7.png",
+          "baseImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_hic_7.png",
+		  "hoverImage" : "/interface/crafting/buttons/craftingwheel/wheel_hi_7.png",
+          "hoverImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_bic_7.png",
+          "data" : {
+            "filter" : [ "wheelObjects" ]
+          }
+        },
+        {
+          "position" : [7, 89],
+		  "pressedOffset" : [1, 0],		  
+          "baseImage" : "/interface/crafting/buttons/craftingwheel/wheel_bi_8.png",
+          "baseImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_hic_8.png",
+		  "hoverImage" : "/interface/crafting/buttons/craftingwheel/wheel_hi_8.png",
+          "hoverImageChecked" : "/interface/crafting/buttons/craftingwheel/wheel_bic_8.png",
+          "data" : {
+            "filter" : [ "clothes" ]
+          }
+        }			
+      ]
+    },
+    "rarities" : {
+      "type" : "radioGroup",
+      "toggleMode" : true,
+      "buttons" : [
+	  	{
+          "position" : [7, 29],
+		  "pressedOffset" : [1, 0],
+          "baseImage" : "/interface/crafting/sort/bp_sort_common.png",
+          "baseImageChecked" : "/interface/crafting/sort/bp_sort_common_selected.png",
+		  "hoverImage" : "/interface/crafting/sort/bp_sort_common_hover.png",
+          "hoverImageChecked" : "/interface/crafting/sort/bp_sort_common_hover_checked.png",			  
+          "data" : {
+            "rarity" : [ "common" ]
+          }
+        },
+        {
+          "position" : [7, 43],
+		  "pressedOffset" : [1, 0],
+          "baseImage" : "/interface/crafting/sort/bp_sort_uncommon.png",
+          "baseImageChecked" : "/interface/crafting/sort/bp_sort_uncommon_selected.png",
+		  "hoverImage" : "/interface/crafting/sort/bp_sort_uncommon_hover.png",
+          "hoverImageChecked" : "/interface/crafting/sort/bp_sort_uncommon_hover_checked.png",	
+          "data" : {
+            "rarity" : [ "uncommon" ]
+          }
+        },
+        {
+          "position" : [7, 57],
+		  "pressedOffset" : [1, 0],
+          "baseImage" : "/interface/crafting/sort/bp_sort_rare.png",
+          "baseImageChecked" : "/interface/crafting/sort/bp_sort_rare_selected.png",
+		  "hoverImage" : "/interface/crafting/sort/bp_sort_rare_hover.png",
+          "hoverImageChecked" : "/interface/crafting/sort/bp_sort_rare_hover_checked.png",	
+          "data" : {
+            "rarity" : [ "rare" ]
+          }
+        },
+        {
+          "position" : [7, 71],
+		  "pressedOffset" : [1, 0],
+          "baseImage" : "/interface/crafting/sort/bp_sort_legendary.png",
+          "baseImageChecked" : "/interface/crafting/sort/bp_sort_legendary_selected.png",
+		  "hoverImage" : "/interface/crafting/sort/bp_sort_legendary_hover.png",
+          "hoverImageChecked" : "/interface/crafting/sort/bp_sort_legendary_hover_checked.png",	
+          "data" : {
+            "rarity" : [ "legendary" ]
+          }
+        }
+      ]
+    }
+  }
+}
