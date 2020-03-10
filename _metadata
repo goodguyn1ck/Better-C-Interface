@@ -1,11 +1,11 @@
 {
   "author" : "Nick Freeman",
-  "description" : "Action bar, inventory monster health bar & breath affected. No more rarity overlays.\nItem pick up pop ups also transparent and quicker.\n\nFor those who play solo, and want hp to be like on screenshots, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1646991918]here[/url] you go.\n\nStorage interface is an unfinished reskin of Enchanced Storage mod from neo.\n\nQuickbar Mini supported too.\n\nScreenshots of Better (C) Interface together:\n1. Vanilla\n2. Players inventory reskin.\n3. Fully(!) transparent chat & main menu like pause menu.\n4. Item tooltip. (Separate mod. \"[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1600330965]Better (C) Item Tooltips[/url]\")\n5. Storage window reskin for Enhanced Storage. Requires both original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=731220462]Enhanced Storage[/url] & [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1650463229]my patch[/url].",
+  "description" : "Action bar, inventory monster health bar, breath, crafting tables and something else I forget affected. No more rarity overlays.\nItem pick up pop ups also transparent and quicker.\n\nChanges size of item description in crafting window, so many mods with custom crafting interface will look very wierd until I make separate patch for them, if I decide.\n\nStorage interface is an (semi)finished reskin of Enchanced Storage mod from neo.\nRequires both original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=731220462]Enhanced Storage[/url] & [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1650463229]my patch[/url].\n\nQuickbar Mini supported too.",
   "friendlyName" : "Better (C) Interface v38 (WIP)",
   "link" : "steam://url/CommunityFilePage/1550987556",
   "name" : "ggn_interface",
   "priority" : 5,
   "steamContentId" : "1550987556",
   "tags" : "Crafting and Building|User Interface|Furniture and Objects",
-  "version" : "38."
+  "version" : "38.1"
 }
