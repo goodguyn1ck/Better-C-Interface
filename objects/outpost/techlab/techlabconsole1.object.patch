@@ -1,0 +1,111 @@
+[
+  {
+    "op": "add",
+    "path": "/price",
+    "value": 2500
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^orange;Tech Console Dispenser^white;"
+  },
+  {
+    "op": "add",
+    "path": "/interactData/paneLayoutOverride/windowtitle/icon",
+    "value": {
+      "type": "image",
+      "file": "/interface/merchant/techlabconsole1.png",
+      "position": [
+        0,
+        -20
+      ],
+      "zlevel": -1
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/interactData/buyFactor",
+    "value": 5
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "mechassemblystation"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "mechcraftingtable"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "wiringstation"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "railcraftingtable"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "3dprinter"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "pixelcompressor"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "capturestation"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "refinery"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/interactData/items/-",
+    "value": {
+      "item": {
+        "name": "techlabconsole1"
+      }
+    }
+  }
+]

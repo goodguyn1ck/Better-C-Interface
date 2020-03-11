@@ -1,6 +1,11 @@
 [
   {
     "op": "replace",
+    "path": "/price",
+    "value": 5000
+  },
+  {
+    "op": "replace",
     "path": "/shortdescription",
     "value": "^orange;Mech Assembly Station^white;"
   }

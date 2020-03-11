@@ -1,0 +1,27 @@
+[
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^orange;Tech Console^white;"
+  },
+  {
+    "op": "replace",
+    "path": "/price",
+    "value": 2500
+  },
+  {
+    "op" : "replace",
+    "path" : "/health",
+    "value" : 1.5
+  },
+  {
+    "op" : "replace",
+	"path" : "/description",
+	"value" : "Equip and enhance your techs at this station."
+  },
+  {
+    "op" : "remove",
+    "path" : "/breakDropPool",
+    "value" : "techconsole"
+  }
+]
