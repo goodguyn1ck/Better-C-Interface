@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "shroom", "count" : 15 },
+    { "item" : "shroomblock", "count" : 30 },
+    { "item" : "darkwoodmaterial", "count" : 5 },
+	{ "item" : "ironbar", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "mushroomshield", "count" : 1 },
+  "groups" : [ "craftinganvil", "shields", "weapons", "all" ]
+}

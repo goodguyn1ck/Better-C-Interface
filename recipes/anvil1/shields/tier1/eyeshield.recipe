@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "oculemon", "count" : 4 },
+    { "item" : "eyepiles", "count" : 50 },
+    { "item" : "darkwoodmaterial", "count" : 5 },
+	{ "item" : "ironbar", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "eyeshield", "count" : 1 },
+  "groups" : [ "craftinganvil", "shields", "weapons", "all" ]
+}

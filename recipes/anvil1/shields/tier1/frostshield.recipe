@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "snowflake", "count" : 10 },
+    { "item" : "ice", "count" : 30 },
+    { "item" : "darkwoodmaterial", "count" : 5 },
+	{ "item" : "ironbar", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "frostshield", "count" : 1 },
+  "groups" : [ "craftinganvil", "shields", "weapons", "all" ]
+}
