@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/groups/1",
+    "value": "vanilla_crafting"
+  }
+]
