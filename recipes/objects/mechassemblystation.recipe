@@ -1,0 +1,37 @@
+{
+	"input": [{
+			"item": "battery",
+			"count": 1
+		},
+		{
+			"item": "durasteelbar",
+			"count": 5
+		},
+		{
+			"item": "siliconboard",
+			"count": 3
+		},
+		{
+			"item": "salvagebooster",
+			"count": 6
+		},
+		{
+			"item": "salvagelegs",
+			"count": 6
+		},
+		{
+			"item": "salvagebody",
+			"count": 6
+		},
+		{
+			"item": "salvagearm",
+			"count": 6
+		}
+	],
+	"output": {
+		"item": "mechassemblystation",
+		"count": 1
+	},
+	"duration": 5,
+	"groups": ["inventorstable3", "craftingstations", "all"]
+}

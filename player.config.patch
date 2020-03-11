@@ -1,0 +1,16 @@
+[
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/-",
+		"value": {
+			"item": "mechcraftingtable"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/-",
+		"value": {
+			"item": "mechassemblystation"
+		}
+	}
+]

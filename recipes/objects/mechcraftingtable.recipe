@@ -1,0 +1,33 @@
+{
+	"input": [{
+			"item": "battery",
+			"count": 1
+		},
+		{
+			"item": "durasteelbar",
+			"count": 5
+		},
+		{
+			"item": "wire",
+			"count": 10
+		},
+		{
+			"item": "salvagetier4",
+			"count": 6
+		},
+		{
+			"item": "salvagetier5",
+			"count": 6
+		},
+		{
+			"item": "salvagetier6",
+			"count": 6
+		}
+	],
+	"output": {
+		"item": "mechcraftingtable",
+		"count": 1
+	},
+	"duration": 5,
+	"groups": ["inventorstable3", "craftingstations", "all"]
+}
