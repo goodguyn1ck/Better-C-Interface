@@ -12,7 +12,7 @@
     "centered" : true,
 	"color" : "gray",
     "wrapWidth" : 126,
-	"fontSize" : 6
+	"fontSize" : 6	
   },
   "moneyIcon" : {
     "type" : "image",
@@ -24,16 +24,16 @@
     "position" : [21, 9],
     "hAnchor" : "left",
     "value" : "0",
-	"fontSize" : 7
+	"fontSize" : 7		
   },
   "nameLabel" : {
     "type" : "label",
     "position" : [136, 9],
     "hAnchor" : "right",
     "centered" : true,
-    "wrapWidth" : 100,
-	"fontSize" : 7
-  },
+    "wrapWidth" : 126,
+	"fontSize" : 7		
+  },  
   "descriptionLabel" : {
     "type" : "label",
     "position" : [12, 58],
@@ -41,7 +41,7 @@
     "hAnchor" : "left",
     "vAnchor" : "top",
 	"color" : "gray",
-	"fontSize" : 6
+	"fontSize" : 6	
   },
   "objectImage" : {
     "type" : "image",
