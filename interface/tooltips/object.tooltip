@@ -31,7 +31,8 @@
     "position" : [136, 9],
     "hAnchor" : "right",
     "centered" : true,
-    "fontSize" : 6
+    "wrapWidth" : 100,
+	"fontSize" : 7
   },
   "descriptionLabel" : {
     "type" : "label",
