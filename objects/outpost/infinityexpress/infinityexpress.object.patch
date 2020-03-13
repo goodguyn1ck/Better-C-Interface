@@ -1,0 +1,15 @@
+[
+  {
+    "op": "add",
+    "path": "/interactData/paneLayoutOverride/windowtitle/icon",
+    "value": {
+      "type": "image",
+      "file": "/interface/merchant/infinityexpress.png",
+      "position": [
+        0,
+        -20
+      ],
+      "zlevel": -1
+    }
+  }
+]
