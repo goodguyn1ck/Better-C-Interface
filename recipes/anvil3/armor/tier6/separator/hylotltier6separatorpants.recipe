@@ -3,7 +3,7 @@
     { "item" : "solariumstar", "count" : 8 },
     { "item" : "hylotltier5spants", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "hylotltier6spants", "count" : 1 },
-  "groups" : [ "craftingseparator", "armours", "all" ]
+  "groups" : [ "craftingseparator", "legarmours", "armours", "all" ]
 }

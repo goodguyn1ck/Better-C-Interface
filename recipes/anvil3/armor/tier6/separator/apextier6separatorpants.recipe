@@ -3,7 +3,7 @@
     { "item" : "solariumstar", "count" : 8 },
     { "item" : "apextier5spants", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "apextier6spants", "count" : 1 },
-  "groups" : [ "craftingseparator", "armours", "all" ]
+  "groups" : [ "craftingseparator", "legarmours", "armours", "all" ]
 }

@@ -3,7 +3,7 @@
     { "item" : "tungstenbar", "count" : 6 },
     { "item" : "cottonwool", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "aviantier2head", "count" : 1 },
   "groups" : [ "craftinganvil", "headarmours", "armours", "all" ]
 }

@@ -3,7 +3,7 @@
     { "item" : "solariumstar", "count" : 20 },
     { "item" : "glitchtier5mchest", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "glitchtier6mchest", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "armours", "all" ]
+  "groups" : [ "craftingmanipulator", "chestarmours", "armours", "all" ]
 }

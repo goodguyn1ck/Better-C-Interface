@@ -4,7 +4,7 @@
     { "item" : "cottonwool", "count" : 1 },
     { "item" : "leather", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "hylotltier2chest", "count" : 1 },
   "groups" : [ "craftinganvil", "chestarmours", "armours", "all" ]
 }

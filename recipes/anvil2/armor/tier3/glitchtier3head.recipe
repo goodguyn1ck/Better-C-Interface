@@ -3,7 +3,7 @@
     { "item" : "titaniumbar", "count" : 6 },
     { "item" : "canvas", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "glitchtier3head", "count" : 1 },
-  "groups" : [ "craftinganvil2", "headarmours", "all" ]
+  "groups" : [ "craftinganvil2", "headarmours", "armours", "all" ]
 }

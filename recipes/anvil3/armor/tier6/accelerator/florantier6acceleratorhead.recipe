@@ -3,7 +3,7 @@
     { "item" : "solariumstar", "count" : 12 },
     { "item" : "florantier5ahead", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "florantier6ahead", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "armours", "all" ]
+  "groups" : [ "craftingaccelerator", "headarmours", "armours", "all" ]
 }

@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "perfectlygenericitem", "count" : 50 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "perfectchest", "count" : 1 },
   "groups" : [ "craftinganvil3", "chestarmours", "armours", "all" ]
 }

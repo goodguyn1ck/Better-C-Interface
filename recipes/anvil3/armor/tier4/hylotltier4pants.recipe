@@ -3,7 +3,7 @@
     { "item" : "durasteelbar", "count" : 4 },
     { "item" : "leather", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "hylotltier4pants", "count" : 1 },
-  "groups" : [ "craftinganvil3", "armours", "legarmours", "all" ]
+  "groups" : [ "craftinganvil3", "legarmours", "armours", "all" ]
 }

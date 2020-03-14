@@ -4,7 +4,7 @@
     { "item" : "leather", "count" : 3 },
     { "item" : "silk", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "apextier4chest", "count" : 1 },
-  "groups" : [ "craftinganvil3", "armours", "chestarmours", "all" ]
+  "groups" : [ "craftinganvil3", "chestarmours", "armours", "all" ]
 }

@@ -3,7 +3,7 @@
     { "item" : "solariumstar", "count" : 20 },
     { "item" : "aviantier5achest", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "aviantier6achest", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "armours", "all" ]
+  "groups" : [ "craftingaccelerator", "chestarmours", "armours", "all" ]
 }

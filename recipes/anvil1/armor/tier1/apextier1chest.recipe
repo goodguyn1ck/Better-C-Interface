@@ -2,9 +2,9 @@
   "input" : [
     { "item" : "ironbar", "count" : 5 },
     { "item" : "fabric", "count" : 5 },
-    { "item" : "string", "count" : 1 } 
+    { "item" : "string", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "apextier1chest", "count" : 1 },
-  "groups" : [ "craftinganvil", "armours", "chestarmours", "all" ]
+  "groups" : [ "craftinganvil", "chestarmours", "armours", "all" ]
 }

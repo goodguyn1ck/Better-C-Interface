@@ -3,7 +3,7 @@
     { "item" : "solariumstar", "count" : 20 },
     { "item" : "novatier5schest", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "novatier6schest", "count" : 1 },
-  "groups" : [ "craftingseparator", "armours", "all" ]
+  "groups" : [ "craftingseparator", "chestarmours", "armours", "all" ]
 }

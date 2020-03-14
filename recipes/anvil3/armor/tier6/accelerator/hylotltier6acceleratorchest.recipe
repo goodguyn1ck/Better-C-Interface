@@ -3,7 +3,7 @@
     { "item" : "solariumstar", "count" : 20 },
     { "item" : "hylotltier5achest", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "hylotltier6achest", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "armours", "all" ]
+  "groups" : [ "craftingaccelerator", "chestarmours", "armours", "all" ]
 }

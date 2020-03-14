@@ -4,7 +4,7 @@
     { "item" : "leather", "count" : 1 },
     { "item" : "syntheticmaterial", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "aviantier5apants", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "armours", "all" ]
+  "groups" : [ "craftingaccelerator", "legarmours", "armours", "all" ]
 }

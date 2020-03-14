@@ -4,7 +4,7 @@
     { "item" : "fabric", "count" : 5 },
     { "item" : "string", "count" : 1 } 
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "novatier1chest", "count" : 1 },
   "groups" : [ "craftinganvil", "chestarmours", "armours", "all" ]
 }

@@ -4,7 +4,7 @@
     { "item" : "leather", "count" : 1 },
     { "item" : "syntheticmaterial", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 1,
   "output" : { "item" : "glitchtier5achest", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "armours", "all" ]
+  "groups" : [ "craftingaccelerator", "chestarmours", "armours", "all" ]
 }
