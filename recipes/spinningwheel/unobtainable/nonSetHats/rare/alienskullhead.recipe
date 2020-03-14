@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cottonwool", "count" : 50 },
+	{ "item" : "bone", "count" : 50 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "alienskullhead", "count" : 1 },
+  "groups" : [ "craftingwheel", "vanityHead", "clothes" ]
+}

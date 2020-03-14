@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cottonwool", "count" : 2 },
+	{ "item" : "bluedye", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "shortcapeback", "count" : 1 },
+  "groups" : [ "craftingwheel", "vanityBack" ]
+}
