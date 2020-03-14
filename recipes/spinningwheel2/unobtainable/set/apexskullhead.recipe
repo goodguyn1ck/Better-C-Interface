@@ -1,11 +1,11 @@
 {
   "input" : [
     { "item" : "cottonwool", "count" : 50 },
-	{ "item" : "fleshstrand", "count" : 50 },
+	{ "item" : "bone", "count" : 50 },
 	{ "item" : "apexfossil1", "count" : 1 },
 	{ "item" : "eyepiles", "count" : 2 }
   ],
   "duration" : 1,
-  "output" : { "item" : "anatomyapexhead", "count" : 1 },
+  "output" : { "item" : "apexskullhead", "count" : 1 },
   "groups" : [ "craftingwheel2", "vanityHead", "clothes" ]
 }
