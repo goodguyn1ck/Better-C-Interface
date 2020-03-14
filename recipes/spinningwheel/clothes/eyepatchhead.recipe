@@ -6,6 +6,5 @@
   ],
   "duration" : 1,
   "output" : { "item" : "eyepatchhead", "count" : 1 },
-  "groups" : [ "craftingwheel", "vanityHead", "clothes" ]
+  "groups" : [ "craftingwheel", "vanityHead" ]
 }
-

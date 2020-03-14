@@ -5,5 +5,5 @@
   ],
   "duration" : 1,
   "output" : { "item" : "floranpeltlegs", "count" : 1 },
-  "groups" : [ "craftingwheel", "vanityLegs", "clothes" ]
+  "groups" : [ "craftingwheel", "vanityLegs" ]
 }

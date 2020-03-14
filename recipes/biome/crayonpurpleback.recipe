@@ -5,5 +5,5 @@
     { "item" : "purpledye", "count" : 3 }
   ],
   "output" : { "item" : "crayonpurpleback", "count" : 1 },
-  "groups" : [ "craftingwheel", "vanityBack", "clothes" ]
+  "groups" : [ "craftingwheel", "vanityBack" ]
 }

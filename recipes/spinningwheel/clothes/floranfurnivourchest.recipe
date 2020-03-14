@@ -5,5 +5,5 @@
   ],
   "duration" : 1,
   "output" : { "item" : "floranfurnivourchest", "count" : 1 },
-  "groups" : [ "craftingwheel", "vanityChest", "clothes" ]
+  "groups" : [ "craftingwheel", "vanityChest" ]
 }

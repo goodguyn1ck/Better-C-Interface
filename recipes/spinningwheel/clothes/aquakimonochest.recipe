@@ -5,5 +5,5 @@
   ],
   "duration" : 1,
   "output" : { "item" : "kimonochest", "count" : 1 },
-  "groups" : [ "craftingwheel", "vanityChest", "clothes" ]
+  "groups" : [ "craftingwheel", "vanityChest" ]
 }

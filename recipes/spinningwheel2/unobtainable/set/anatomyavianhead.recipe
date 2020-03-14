@@ -7,5 +7,5 @@
   ],
   "duration" : 1,
   "output" : { "item" : "anatomyavianhead", "count" : 1 },
-  "groups" : [ "craftingwheel2", "vanityHead", "clothes" ]
+  "groups" : [ "craftingwheel2", "vanityHead" ]
 }

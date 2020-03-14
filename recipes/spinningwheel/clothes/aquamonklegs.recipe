@@ -5,5 +5,5 @@
   ],
   "duration" : 1,
   "output" : { "item" : "monklegs", "count" : 1 },
-  "groups" : [ "craftingwheel", "vanityLegs", "clothes" ]
+  "groups" : [ "craftingwheel", "vanityLegs" ]
 }
