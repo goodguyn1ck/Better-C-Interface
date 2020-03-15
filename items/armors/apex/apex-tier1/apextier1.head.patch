@@ -5,5 +5,10 @@
     "value": [
       "apextier1head"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^gray;T1 ^white;Defector's Mask"
   }
 ]

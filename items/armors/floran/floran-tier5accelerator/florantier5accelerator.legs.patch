@@ -5,5 +5,10 @@
     "value": [
       "florantier5apants"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#fc6a03;T5 ^white;Wiseman's Loincloth"
   }
 ]

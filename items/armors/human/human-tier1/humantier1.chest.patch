@@ -5,5 +5,10 @@
     "value": [
       "humantier1chest"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^gray;T1 ^white;Scouter's Chestguard"
   }
 ]

@@ -5,5 +5,10 @@
     "value": [
       "apextier4chest"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#753bb0;T4 ^white;Revolutionary's Jacket"
   }
 ]

@@ -5,5 +5,10 @@
     "value": [
       "novatier4pants"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#753bb0;T4 ^white;Sheriff's Slacks"
   }
 ]

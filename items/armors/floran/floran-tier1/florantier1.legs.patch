@@ -5,5 +5,10 @@
     "value": [
       "florantier1pants"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^gray;T1 ^white;Sprout's Anklets"
   }
 ]

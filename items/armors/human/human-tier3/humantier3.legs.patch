@@ -5,5 +5,10 @@
     "value": [
       "humantier3pants"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#3b6fb0;T3 ^white;Pioneer's Trousers"
   }
 ]

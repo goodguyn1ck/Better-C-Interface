@@ -5,5 +5,10 @@
     "value": [
       "novatier5mpants"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#fc6a03;T5 ^white;Bonesaw's Slacks"
   }
 ]

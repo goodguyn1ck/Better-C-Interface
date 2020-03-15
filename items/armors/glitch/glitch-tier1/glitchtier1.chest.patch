@@ -5,5 +5,10 @@
     "value": [
       "glitchtier1chest"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^gray;T1 ^white;Knave's Breastplate"
   }
 ]

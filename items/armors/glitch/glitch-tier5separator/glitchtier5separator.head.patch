@@ -5,5 +5,10 @@
     "value": [
       "glitchtier5shead"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#fc6a03;T5 ^white;Paladin's Helm"
   }
 ]

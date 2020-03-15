@@ -5,5 +5,10 @@
     "value": [
       "humantier6spants"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#ffff00;T6 ^white;Universalist's Trousers"
   }
 ]

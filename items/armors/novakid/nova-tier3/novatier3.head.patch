@@ -5,5 +5,10 @@
     "value": [
       "novatier3head"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#3b6fb0;T3 ^white;Outlaw Hat"
   }
 ]

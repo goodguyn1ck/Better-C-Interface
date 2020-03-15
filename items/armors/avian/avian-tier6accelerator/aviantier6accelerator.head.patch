@@ -5,5 +5,10 @@
     "value": [
       "aviantier6ahead"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#ffff00;T6 ^white;Macaw Headdress"
   }
 ]

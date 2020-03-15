@@ -5,5 +5,10 @@
     "value": [
       "florantier2pants"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#3bb143;T2 ^white;Bonesmith's Loincloth"
   }
 ]

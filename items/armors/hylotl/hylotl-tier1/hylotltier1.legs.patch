@@ -5,5 +5,10 @@
     "value": [
       "hylotltier1pants"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^gray;T1 ^white;Puddle Trousers"
   }
 ]

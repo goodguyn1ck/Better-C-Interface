@@ -5,5 +5,10 @@
     "value": [
       "glitchtier1head"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^gray;T1 ^white;Knave's Helm"
   }
 ]

@@ -5,5 +5,10 @@
     "value": [
       "apextier2head"
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#3bb143;T2 ^white;Rebel's Hood"
   }
 ]
