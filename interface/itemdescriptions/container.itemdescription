@@ -64,6 +64,7 @@
     "hAnchor" : "right",
     "centered" : true,
 	"fontSize" : 7,
+	"color" : "gray",
     "wrapWidth" : 126
   },
   "titleIcon" : {
