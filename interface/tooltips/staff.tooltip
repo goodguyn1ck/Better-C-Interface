@@ -1,9 +1,9 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/headertile.png",
+    "fileHeader" : "/interface/tooltips/header.png",
     "fileBody" : "/interface/tooltips/bodymech.png",
-    "fileFooter" : "/interface/tooltips/footertile.png"
+    "fileFooter" : "/interface/tooltips/footer.png"
   },
   "rarityLabel" : {
     "type" : "label",
@@ -12,7 +12,7 @@
     "centered" : true,
 	"color" : "gray",
     "wrapWidth" : 126,
-	"fontSize" : 6	
+	"fontSize" : 6
   },
   "moneyIcon" : {
     "type" : "image",
@@ -24,7 +24,7 @@
     "position" : [21, 9],
     "hAnchor" : "left",
     "value" : "0",
-	"fontSize" : 7		
+	"fontSize" : 7
   },
   "nameLabel" : {
     "type" : "label",
@@ -32,8 +32,8 @@
     "hAnchor" : "right",
     "centered" : true,
     "wrapWidth" : 126,
-	"fontSize" : 7		
-  },  
+	"fontSize" : 7
+  },
   "descriptionLabel" : {
     "type" : "label",
     "position" : [12, 58],
@@ -41,13 +41,13 @@
     "hAnchor" : "left",
     "vAnchor" : "top",
 	"color" : "gray",
-	"fontSize" : 6	
+	"fontSize" : 6
   },
   "objectImage" : {
     "type" : "image",
     "position" : [72, 123],
     "file" : "",
-    "hAnchor" : "mid",	
+    "hAnchor" : "mid",
     "centered" : true,
     "maxSize" : [40, 40],
     "minSize" : [40, 40]
@@ -58,7 +58,7 @@
     "hAnchor" : "left",
     "value" : "",
 	"color" : "gray",
-	"fontSize" : 7	
+	"fontSize" : 7
   },
   "primaryAbilityLabel" : {
     "type" : "label",
@@ -66,7 +66,7 @@
     "hAnchor" : "right",
     "wrapWidth" : 126,
 	"color" : "gray",
-	"fontSize" : 7		
+	"fontSize" : 7
   },
   "altAbilityTitleLabel" : {
     "type" : "label",
@@ -74,7 +74,7 @@
     "hAnchor" : "left",
     "value" : "",
 	"color" : "gray",
-	"fontSize" : 7	
+	"fontSize" : 7
   },
   "altAbilityLabel" : {
     "type" : "label",
@@ -83,7 +83,7 @@
     "centered" : true,
     "wrapWidth" : 126,
 	"color" : "gray",
-	"fontSize" : 7	
+	"fontSize" : 7
   },
   "levelTitleLabel" : {
     "type" : "label",
@@ -91,7 +91,7 @@
     "hAnchor" : "left",
     "value" : "Level:",
 	"color" : "gray",
-	"fontSize" : 7	
+	"fontSize" : 7
   },
   "levelLabel" : {
     "type" : "label",
@@ -108,7 +108,7 @@
     "hAnchor" : "mid",
     "centered" : true,
 	"color" : "gray",
-	"fontSize" : 6	
+	"fontSize" : 6
   },
   "damageKindImage" : {
     "type" : "image",
@@ -117,6 +117,6 @@
     "centered" : true,
     "maxSize" : [16, 16],
     "minSize" : [16, 16],
-	"fontSize" : 7	
-  }	
+	"fontSize" : 7
+  }
 }

@@ -1,9 +1,9 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/headertile.png",
+    "fileHeader" : "/interface/tooltips/header.png",
     "fileBody" : "/interface/tooltips/bodyobject.png",
-    "fileFooter" : "/interface/tooltips/footertile.png"
+    "fileFooter" : "/interface/tooltips/footer.png"
   },
   "rarityLabel" : {
     "type" : "label",
@@ -41,7 +41,7 @@
     "hAnchor" : "left",
     "vAnchor" : "top",
 	"color" : "gray",
-	"fontSize" : 6	
+	"fontSize" : 6
   },
   "objectImage" : {
     "type" : "image",

@@ -1,9 +1,9 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/headertile.png",
+    "fileHeader" : "/interface/tooltips/header.png",
     "fileBody" : "/interface/tooltips/bodyaugment.png",
-    "fileFooter" : "/interface/tooltips/footertile.png"
+    "fileFooter" : "/interface/tooltips/footer.png"
   },
   "rarityLabel" : {
     "type" : "label",
@@ -12,7 +12,7 @@
     "centered" : true,
 	"color" : "gray",
     "wrapWidth" : 126,
-	"fontSize" : 6	
+	"fontSize" : 6
   },
   "moneyIcon" : {
     "type" : "image",
@@ -33,7 +33,7 @@
     "centered" : true,
     "wrapWidth" : 126,
     "fontSize" : 7
-  }, 
+  },
   "descriptionLabel" : {
     "type" : "label",
     "position" : [12, 83],
@@ -41,12 +41,12 @@
     "vAnchor" : "top",
     "wrapWidth" : 120,
 	"color" : "gray",
-	"fontSize" : 6	
+	"fontSize" : 6
   },
   "objectImage" : {
     "type" : "image",
     "position" : [72, 123],
-    "file" : "",	
+    "file" : "",
     "centered" : true,
     "maxSize" : [70, 54],
     "minSize" : [70, 54]
