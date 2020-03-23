@@ -1,70 +1,67 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/headertile.png",
+    "fileHeader" : "/interface/tooltips/headerarmor.png",
     "fileBody" : "/interface/tooltips/bodyarmor.png",
-    "fileFooter" : "/interface/tooltips/footertile.png"
+    "fileFooter" : "/interface/tooltips/footerarmor.png"
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [134, 22],
+    "position" : [342, 13],
     "hAnchor" : "right",
-    "centered" : true,
-	"color" : "gray",
     "wrapWidth" : 126,
-	"fontSize" : 6	
+	"fontSize" : 7
   },
   "moneyIcon" : {
     "type" : "image",
-    "position" : [8, 9],
+    "position" : [219, 13],
     "file" : "/interface/money.png"
   },
   "priceLabel" : {
     "type" : "label",
-    "position" : [21, 9],
+    "position" : [235, 13],
     "hAnchor" : "left",
     "value" : "0",
-	"fontSize" : 7		
-  },
-  "objectImage" : {
-    "type" : "image",
-    "position" : [35, 100],
-    "file" : "",
-    "centered" : true,
-    "scale" : 2,
-    "maxSize" : [ 46, 59 ],
-    "minSize" : [ 46, 59 ]
-  },
-  "descriptionLabel" : {
-    "type" : "label",
-    "position" : [12, 58],
-    "wrapWidth" : 120,
-    "hAnchor" : "left",
-    "vAnchor" : "top",
-	"color" : "gray",
-	"fontSize" : 6	
+	"fontSize" : 7
   },
   "nameLabel" : {
     "type" : "label",
-    "position" : [136, 9],
-    "hAnchor" : "right",
+    "position" : [12, 13],
+    "hAnchor" : "left",
+	"fontSize" : 7
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [220, 109],
+    "wrapWidth" : 123,
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+	"color" : "gray",
+	"fontSize" : 6
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [72, 72],
+    "file" : "",
     "centered" : true,
-    "wrapWidth" : 126,
-	"fontSize" : 7		
-  },  
+    "scale" : 2,
+    "maxSize" : [64, 64],
+    "minSize" : [64, 64]
+  },
+
   "statusList" : {
     "scissoring" : false,
     "type" : "list",
     "fillDown" : true,
-    "position" : [3, 138],
+    "position" : [73, 134],
     "schema" : {
-      "spacing" : [0, 3],
+      "spacing" : [0, 2],
       "memberSize" : [999, 15],
       "listTemplate" : {
         "statusLabel" : {
           "type" : "label",
-          "position" : [98, 2],
-          "hAnchor" : "left",
+          "position" : [127, 2],
+          "hAnchor" : "right",
 		  "fontSize" : 7
         },
         "statusImage" : {

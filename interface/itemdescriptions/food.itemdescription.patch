@@ -1,0 +1,48 @@
+[
+  {
+    "op": "replace",
+    "path": "/effectLabel",
+    "value": {
+      "type": "label",
+      "position": [
+        16,
+        96
+      ],
+      "fontSize": 6,
+      "lineSpacing": 1,
+      "hAnchor": "left",
+      "vAnchor": "top",
+      "wrapWidth": 90,
+      "value": ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/foodAmountLabel",
+    "value": {
+      "type": "label",
+      "position": [
+        137,
+        90
+      ],
+      "hAnchor": "right",
+      "centered": true,
+      "wrapWidth": 126,
+	  "fontSize" : 6,
+      "value": ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/objectImage",
+    "value": {
+      "type" : "image",
+      "position" : [76, 180],
+      "file" : "",
+      "centered" : true,
+      "maxSize" : [106, 40],
+      "minSize" : [100, 32],
+  	  "scale" : 1
+	}
+  }
+]

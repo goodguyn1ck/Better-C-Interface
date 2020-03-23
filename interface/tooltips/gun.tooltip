@@ -33,7 +33,7 @@
     "centered" : true,
     "wrapWidth" : 126,
 	"fontSize" : 7		
-  },  
+  },
   "descriptionLabel" : {
     "type" : "label",
     "position" : [12, 58],
@@ -57,7 +57,7 @@
     "hAnchor" : "left",
     "value" : "",
 	"color" : "gray",
-	"fontSize" : 7	
+	"fontSize" : 7
   },
   "altAbilityLabel" : {
     "type" : "label",
@@ -74,7 +74,7 @@
     "hAnchor" : "left",
     "value" : "Rate of Fire:",
 	"color" : "gray",
-	"fontSize" : 7	
+	"fontSize" : 7
   },
   "speedLabel" : {
     "type" : "label",
@@ -82,7 +82,7 @@
     "hAnchor" : "right",
     "wrapWidth" : 126,
 	"color" : "gray",
-	"fontSize" : 7	
+	"fontSize" : 7
   },
   "damagePerShotTitleLabel" : {
     "type" : "label",
@@ -90,7 +90,7 @@
     "hAnchor" : "left",
     "value" : "Damage Per Shot:",
 	"color" : "gray",
-	"fontSize" : 7	
+	"fontSize" : 7
   },
   "damagePerShotLabel" : {
     "type" : "label",
@@ -106,7 +106,7 @@
     "hAnchor" : "left",
     "value" : "Energy Per Shot:",
 	"color" : "gray",
-	"fontSize" : 7	
+	"fontSize" : 7
   },
   "energyPerShotLabel" : {
     "type" : "label",
@@ -114,7 +114,7 @@
     "hAnchor" : "right",
     "wrapWidth" : 126,
 	"color" : "gray",
-	"fontSize" : 7	
+	"fontSize" : 7
   },
   "handednessLabel" : {
     "type" : "label",
@@ -122,7 +122,7 @@
     "hAnchor" : "mid",
     "centered" : true,
 	"color" : "gray",
-	"fontSize" : 6	
+	"fontSize" : 6
   },
   "damageKindImage" : {
     "type" : "image",
@@ -130,7 +130,6 @@
     "file" : "",
     "centered" : true,
     "maxSize" : [16, 16],
-    "minSize" : [16, 16],
-	"fontSize" : 7	
+    "minSize" : [16, 16]
   }
 }

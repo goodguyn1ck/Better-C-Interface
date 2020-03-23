@@ -1,0 +1,52 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/header_h.png",
+    "fileBody" : "/interface/tooltips/body_h.png",
+    "fileFooter" : "/interface/tooltips/footer_h.png"
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [273, 13],
+    "hAnchor" : "right",
+	"color" : "gray",
+    "wrapWidth" : 126,
+	"fontSize" : 6
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [149, 13],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [165, 13],
+    "hAnchor" : "left",
+    "value" : "0",
+	"fontSize" : 7
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [150, 123],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 125,
+	"color" : "gray",
+	"fontSize" : 6
+  },
+  "largeImage" : {
+    "type" : "image",
+    "position" : [73, 72],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [106, 34],
+    "minSize" : [100, 28]
+  },
+  "nameLabel" : {
+    "type" : "label",
+    "position" : [12, 13],
+    "hAnchor" : "left",
+    "wrapWidth" : 126,
+	"fontSize" : 7	
+  }
+}

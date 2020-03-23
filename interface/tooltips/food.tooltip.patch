@@ -1,0 +1,87 @@
+[
+  {
+    "op": "replace",
+    "path": "/foodAmountLabel",
+    "value": {
+      "type" : "label",
+      "position" : [22, 80],
+      "hAnchor" : "left",
+      "centered" : true,
+	  "fontSize" : 6,
+      "wrapWidth" : 70,
+      "value" : ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/effectLabel",
+    "value": {
+      "type" : "label",
+      "position" : [134, 145],
+      "fontSize" : 6,
+      "lineSpacing" : 1.0,
+      "hAnchor" : "right",
+      "vAnchor" : "top",
+      "wrapWidth" : 90,
+      "value" : ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/background",
+    "value": {
+		"type" : "background",
+		"fileHeader" : "/interface/tooltips/header.png",
+		"fileBody" : "/interface/tooltips/bodyfood.png",
+		"fileFooter" : "/interface/tooltips/footer.png"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/descriptionLabel",
+    "value": {
+    "type" : "label",
+		"position" : [12, 58],
+		"wrapWidth" : 120,
+		"hAnchor" : "left",
+		"vAnchor" : "top",
+		"color" : "gray",
+		"fontSize" : 6	
+    }
+  },
+  {
+	"op": "replace",
+    "path": "/priceLabel",
+    "value": {
+		"type" : "label",
+		"position" : [21, 9],
+		"hAnchor" : "left",
+		"value" : "0",
+		"fontSize" : 7
+	}
+  },
+  {
+	"op": "replace",
+    "path": "/moneyIcon",
+    "value": {
+	    "type" : "image",
+		"position" : [8, 9],
+		"file" : "/interface/money.png"
+	
+	}
+  },
+  {
+	"op": "replace",
+    "path": "/rotTimeLabel",
+    "value": {
+	    "type" : "label",
+		"position" : [12, 72],
+		"hAnchor" : "left",
+		"vAnchor" : "top",
+		"wrapWidth" : 122,
+		"value" : "",
+		"color" : "gray",
+		"fontSize" : 7	
+	}
+  }
+]

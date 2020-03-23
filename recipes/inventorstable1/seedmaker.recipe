@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 50 },
+    { "item" : "durasteelbar", "count" : 10 },
+    { "item" : "battery", "count" : 2 },
+    { "item" : "wire", "count" : 8 },
+    { "item" : "siliconboard", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "seedmaker",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "inventorstable3", "modded_crafting", "craftingstations", "all" ]
+}

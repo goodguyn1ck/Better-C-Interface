@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 },
+    { "item" : "battery", "count" : 1 },
+    { "item" : "wire", "count" : 6 },
+    { "item" : "siliconboard", "count" : 3 }
+ 
+  ],
+  "output" : {
+    "item" : "NillyAdvancedDyeingTabletcrafting",
+    "count" : 1
+  },
+  "duration" : 0.1,
+  "groups" : [ "inventorstable3", "modded_crafting", "all" ]
+}

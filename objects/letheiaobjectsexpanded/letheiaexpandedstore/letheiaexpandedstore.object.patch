@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/interactData/paneLayoutOverride/windowtitle/title",
+    "value": "^#d93a3a;Letheia Store"
+  },
+  {
+    "op": "replace",
+    "path": "/price",
+    "value": 1990
+  }
+]

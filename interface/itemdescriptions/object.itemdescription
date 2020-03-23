@@ -24,7 +24,7 @@
     "file" : "",
     "centered" : true,
     "maxSize" : [106, 40],
-    "minSize" : [100, 32],
+    "minSize" : [40, 32],
 	"scale" : 1
   },
   "rarityLabel" : {
@@ -51,10 +51,9 @@
   },
   "nameLabel" : {
     "type" : "label",
-    "position" : [141, 3],
-    "hAnchor" : "right",
-    "centered" : true,
-	"fontSize" : 7,
+    "position" : [12, 216],
+    "hAnchor" : "left",
+	"fontSize" : 6,
 	"color" : "gray",	
     "wrapWidth" : 126
   },

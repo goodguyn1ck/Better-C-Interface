@@ -1,0 +1,102 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/headerarmor.png",
+    "fileBody" : "/interface/tooltips/bodyarmor.png",
+    "fileFooter" : "/interface/tooltips/footerarmor.png"
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [342, 13],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+	"fontSize" : 7
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [219, 13],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [235, 13],
+    "hAnchor" : "left",
+    "value" : "0",
+	"fontSize" : 7
+  },
+  "nameLabel" : {
+    "type" : "label",
+    "position" : [12, 13],
+    "hAnchor" : "left",
+	"fontSize" : 7
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [220, 109],
+    "wrapWidth" : 123,
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+	"color" : "gray",
+	"fontSize" : 6
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [72, 72],
+    "file" : "",
+    "centered" : true,
+    "scale" : 2,
+    "maxSize" : [64, 64],
+    "minSize" : [64, 64]
+  },
+
+  "augmentIconImageBackground" : {
+    "type" : "image",
+    "position" : [218, 116],
+    "zlevel" : 2,
+    "file" : "/interface/tooltips/augment.png"
+  },
+  "augmentIconImage" : {
+    "type" : "image",
+    "position" : [218, 116],
+    "zlevel" : 3,
+    "file" : ""
+  },
+  "augmentNameLabel" : {
+    "type" : "label",
+    "position" : [242, 121],
+	"fontSize" : 7,
+    "value" : ""
+  },
+
+  "statusList" : {
+    "scissoring" : false,
+    "type" : "list",
+    "fillDown" : true,
+    "position" : [73, 134],
+    "schema" : {
+      "spacing" : [0, 2],
+      "memberSize" : [999, 15],
+      "listTemplate" : {
+        "statusLabel" : {
+          "type" : "label",
+          "position" : [127, 2],
+          "hAnchor" : "right",
+		  "fontSize" : 7
+        },
+        "statusImage" : {
+          "scissoring" : false,
+          "type" : "image",
+          "position" : [62, -1],
+          "file" : "",
+          "zlevel" : 8
+        },
+        "backgroundImage" : {
+          "scissoring" : false,
+          "type" : "image",
+          "position" : [61, 0],
+          "file" : "/interface/tooltips/statlistback.png"
+        }
+      }
+    }
+  }
+}

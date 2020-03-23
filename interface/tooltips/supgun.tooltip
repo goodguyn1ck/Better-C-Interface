@@ -1,0 +1,169 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/header_h.png",
+    "fileBody" : "/interface/tooltips/body_h.png",
+    "fileFooter" : "/interface/tooltips/footer_h.png"
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [272, 13],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+	"fontSize" : 7
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [149, 13],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [165, 13],
+    "hAnchor" : "left",
+    "value" : "0",
+	"fontSize" : 7
+  },
+  "nameLabel" : {
+    "type" : "label",
+    "position" : [12, 13],
+    "hAnchor" : "left",
+	"fontSize" : 7
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [150, 123],
+    "wrapWidth" : 123,
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+	"color" : "gray",
+	"fontSize" : 6
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [72, 72],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [64, 64],
+    "minSize" : [64, 64]
+  },
+  "miscTitleLabel" : {
+    "type" : "label",
+    "position" : [150, 96],
+    "hAnchor" : "left",
+	"color" : "gray",
+	"fontSize" : 6,
+    "value" : ""
+  },
+  "miscLabel" : {
+    "type" : "label",
+    "position" : [272, 96],
+    "hAnchor" : "right",
+    "wrapWidth" : 90,
+	"fontSize" : 6
+  },
+  "altAbilityTitleLabel" : {
+    "type" : "label",
+    "position" : [150, 88],
+    "hAnchor" : "left",
+    "value" : "",
+	"color" : "gray",
+	"fontSize" : 6
+  },
+  "altAbilityLabel" : {
+    "type" : "label",
+    "position" : [272, 88],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+	"fontSize" : 6	
+  },
+  "damagePerSecondTitleLabel" : {
+    "type" : "label",
+    "position" : [150, 80],
+    "hAnchor" : "left",
+	"color" : "gray",
+	"fontSize" : 6,
+    "value" : "Damage Per Second:"
+  },
+  "damagePerSecondLabel" : {
+    "type" : "label",
+    "position" : [272, 80],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+	"fontSize" : 6
+  },
+  "damagePerShotTitleLabel" : {
+    "type" : "label",
+    "position" : [150, 72],
+    "hAnchor" : "left",
+    "value" : "Damage Per Shot:",
+	"color" : "gray",
+	"fontSize" : 6
+  },
+  "damagePerShotLabel" : {
+    "type" : "label",
+    "position" : [272, 72],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+	"fontSize" : 6	
+  },
+  "speedTitleLabel" : {
+    "type" : "label",
+    "position" : [150, 64],
+    "hAnchor" : "left",
+    "value" : "Rate of Fire:",
+	"color" : "gray",
+	"fontSize" : 6
+  },
+  "speedLabel" : {
+    "type" : "label",
+    "position" : [272, 64],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+	"fontSize" : 6
+  },
+  "energyPerShotTitleLabel" : {
+    "type" : "label",
+    "position" : [150, 56],
+    "hAnchor" : "left",
+    "value" : "Energy Per Shot:",
+	"color" : "gray",
+	"fontSize" : 6
+  },
+  "energyPerShotLabel" : {
+    "type" : "label",
+    "position" : [272, 56],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+	"fontSize" : 6
+  },
+  "levelTitleLabel" : {
+    "type" : "label",
+    "position" : [150, 28],
+    "hAnchor" : "left",
+    "value" : "Level:",
+	"color" : "gray",
+	"fontSize" : 6
+  },
+  "levelLabel" : {
+    "value" : "",  
+    "type" : "label",
+    "position" : [172, 28],
+    "hAnchor" : "left",
+	"fontSize" : 6
+  },
+  "handednessLabel" : {
+    "type" : "label",
+    "position" : [150, 36],
+    "hAnchor" : "left",
+	"color" : "gray",
+	"fontSize" : 6
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [11, 110],
+    "file" : "",
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
+  }
+}
