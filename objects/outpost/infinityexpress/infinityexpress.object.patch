@@ -4,7 +4,7 @@
     "path": "/interactData/paneLayoutOverride/windowtitle/icon",
     "value": {
       "type": "image",
-      "file": "/interface/merchant/infinityexpress.png",
+      "file": "/interface/merchant/big_icons/infinityexpress.png",
       "position": [
         0,
         -20

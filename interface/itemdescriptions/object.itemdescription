@@ -51,7 +51,7 @@
   },
   "nameLabel" : {
     "type" : "label",
-    "position" : [12, 216],
+    "position" : [12, 246],
     "hAnchor" : "left",
 	"fontSize" : 6,
 	"color" : "gray",	
