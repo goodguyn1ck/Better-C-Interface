@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "path": "/interactData/paneLayoutOverride/windowtitle/title",
+    "value": "Letheia Vending Machine"
+  },
+  {
+    "op": "replace",
+    "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+    "value": "^#f54d4d;Red ^#b9b5b2;and ^white;White"
+  },
+  {
+    "op": "replace",
+    "path": "/interactData/buyFactor",
+    "value": 2
+  },
+  {
+    "op": "add",
+    "path": "/interactData/paneLayoutOverride/windowtitle/icon",
+    "value": {
+      "type": "image",
+      "file": "/interface/merchant/big_icons/vending_m.png",
+      "position": [
+        0,
+        -20
+      ],
+      "zlevel": -1
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "op": "replace",
+    "path": "/interactData/paneLayoutOverride/windowtitle/title",
+    "value": "Numi Store"
+  },
+  {
+    "op": "replace",
+    "path": "/interactData/paneLayoutOverride/windowtitle/subtitle",
+    "value": "Numi!!"
+  },
+  {
+    "op": "replace",
+    "path": "/interactData/buyFactor",
+    "value": 2
+  }
+]
