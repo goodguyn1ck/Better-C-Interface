@@ -7,11 +7,10 @@
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [273, 12],
+    "position" : [273, 13],
     "hAnchor" : "right",
-	"color" : "gray",
     "wrapWidth" : 126,
-	"fontSize" : 6
+	"fontSize" : 7
   },
   "moneyIcon" : {
     "type" : "image",

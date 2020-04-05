@@ -9,6 +9,6 @@
     "item" : "clothstation",
     "count" : 1
   },
-  "duration" : 5,
+  "duration" : 1,
   "groups" : [ "inventorstable3", "modded_crafting", "craftingstations", "all" ]
 }

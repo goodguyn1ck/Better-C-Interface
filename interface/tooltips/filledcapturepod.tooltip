@@ -238,8 +238,9 @@
   },
   "noCollarLabel" : {
     "type" : "label",
-    "position" : [172, 113],
+    "position" : [172, 114],
     "color" : "gray",
+	"fontSize" : 7,
     "value" : "NO COLLAR WORN"
   },
   "collarNameLabel" : {
