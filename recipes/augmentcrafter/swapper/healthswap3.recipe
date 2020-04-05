@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "healthaugment2", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "healthaugment2head", "count" : 1 },
+  "groups" : [ "craftingaugment", "auo_swapper" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "augmentoverhauldamagedata", "count" : 2 },
+	{ "item" : "augmentoverhaulemptyaugment", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "damageaugment1", "count" : 1 },
+  "groups" : [ "craftingaugment", "chest" ]
+}

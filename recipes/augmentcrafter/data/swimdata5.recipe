@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "swimaugment5", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "augmentoverhaulswimdata", "count" : 5 },
+  "groups" : [ "craftingaugment", "auo_disassembler" ]
+}

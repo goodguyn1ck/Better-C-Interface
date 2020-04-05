@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "poisonblockaugment2chest", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "augmentoverhaulpoisonblockdata", "count" : 2 },
+  "groups" : [ "craftingaugment", "auo_disassembler" ]
+}

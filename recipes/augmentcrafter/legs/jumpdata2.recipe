@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "augmentoverhauljumpdata", "count" : 4 },
+	{ "item" : "augmentoverhaulemptyaugment", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "jumpaugment2", "count" : 1 },
+  "groups" : [ "craftingaugment", "legs" ]
+}

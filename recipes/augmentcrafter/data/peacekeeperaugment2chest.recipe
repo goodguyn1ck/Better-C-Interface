@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "peacekeeperaugment2chest", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "augmentoverhaulpeacekeeperdata", "count" : 2 },
+  "groups" : [ "craftingaugment", "auo_disassembler" ]
+}

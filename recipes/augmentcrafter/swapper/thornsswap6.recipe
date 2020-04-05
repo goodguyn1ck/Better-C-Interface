@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "thornsaugment3chest", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "thornsaugment3", "count" : 1 },
+  "groups" : [ "craftingaugment", "auo_swapper" ]
+}

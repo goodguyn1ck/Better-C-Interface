@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 2 },
+    { "item" : "siliconboard", "count" : 1 }  	
+  ],
+  "output" : {
+    "item" : "augmentoverhaulemptyaugment",
+    "count" : 1
+  },
+  "duration" : 0.5,
+  "groups" : [ "craftingaugment", "auo_misc" ]
+}

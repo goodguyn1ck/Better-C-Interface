@@ -1,0 +1,16 @@
+[
+
+[{ "op" : "replace", "path" : "/shortdescription", "value" : "Back - ^#C027FF;Electric Resist II" }],
+
+[{ "op" : "replace", "path" : "/category", "value" : "eppAugment" }],
+
+[{ "op" : "replace", "path" : "/price", "value" : 6000 }],
+
+[{ "op" : "replace", "path" : "/rarity", "value" : "Uncommon" }],
+
+[{ "op" : "test", "path" : "/tooltipKind", "inverse" : true },
+{ "op": "add", "path": "/tooltipKind", "value": [] }],
+
+[{ "op" : "replace", "path" : "/tooltipKind", "value" : "eppaugment" }]
+
+]

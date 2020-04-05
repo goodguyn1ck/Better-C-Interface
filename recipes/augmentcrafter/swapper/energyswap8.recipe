@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "energyaugment4head", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "energyaugment4", "count" : 1 },
+  "groups" : [ "craftingaugment", "auo_swapper" ]
+}

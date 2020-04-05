@@ -1,0 +1,16 @@
+[
+
+[{ "op" : "replace", "path" : "/shortdescription", "value" : "Chest - ^#d93a3a;Healing I" }],
+
+[{ "op" : "replace", "path" : "/category", "value" : "chestAugment" }],
+
+[{ "op" : "replace", "path" : "/price", "value" : 3000 }],
+
+[{ "op" : "replace", "path" : "/rarity", "value" : "Common" }],
+
+[{ "op" : "test", "path" : "/tooltipKind", "inverse" : true },
+{ "op": "add", "path": "/tooltipKind", "value": [] }],
+
+[{ "op" : "replace", "path" : "/tooltipKind", "value" : "eppaugment" }]
+
+]

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "damageaugment5", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "augmentoverhauldamagedata", "count" : 5 },
+  "groups" : [ "craftingaugment", "auo_disassembler" ]
+}

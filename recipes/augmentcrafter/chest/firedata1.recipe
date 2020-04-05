@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "augmentoverhaulfireblockdata", "count" : 2 },
+	{ "item" : "augmentoverhaulemptyaugment", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "fireblockaugment1chest", "count" : 1 },
+  "groups" : [ "craftingaugment", "chest" ]
+}

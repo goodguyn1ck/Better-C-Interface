@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "augmentoverhauliceblockdata", "count" : 6 },
+	{ "item" : "augmentoverhaulemptyaugment", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "iceblockaugment3chest", "count" : 1 },
+  "groups" : [ "craftingaugment", "chest" ]
+}

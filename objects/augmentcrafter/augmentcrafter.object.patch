@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/interactData/paneLayoutOverride/windowtitle/title",
+    "value": "^orange;Augment Crafter^white;"
+  },
+  {
+    "op": "replace",
+    "path": "/interactData/paneLayoutOverride/windowtitle/icon/file",
+    "value": "/interface/crafting/big_icons/augmentoverhaul/c.png"
+  }
+]

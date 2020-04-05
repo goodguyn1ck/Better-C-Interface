@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "augmentoverhaulpeacekeeperdata", "count" : 10 },
+	{ "item" : "augmentoverhaulemptyaugment", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "peacekeeperaugment5chest", "count" : 1 },
+  "groups" : [ "craftingaugment", "chest" ]
+}

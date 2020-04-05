@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "healingaugment2", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "healingaugment2chest", "count" : 1 },
+  "groups" : [ "craftingaugment", "auo_swapper" ]
+}

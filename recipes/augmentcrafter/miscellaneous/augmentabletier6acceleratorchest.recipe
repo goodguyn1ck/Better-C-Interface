@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 20 },
+    { "item" : "augmentabletier5achest", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "augmentabletier6achest", "count" : 1 },
+  "groups" : [ "craftingaugment", "miscellaneous" ]
+}

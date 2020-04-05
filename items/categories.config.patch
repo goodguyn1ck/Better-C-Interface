@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/labels/headAugment",
+    "value": "Head Augment"
+  },
+  {
+    "op": "add",
+    "path": "/labels/chestAugment",
+    "value": "Chest Augment"
+  },
+  {
+    "op": "add",
+    "path": "/labels/legsAugment",
+    "value": "Legs Augment"
+  }
+]

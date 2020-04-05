@@ -50,10 +50,9 @@
   },
   "nameLabel" : {
     "type" : "label",
-    "position" : [141, 3],
-    "hAnchor" : "right",
-    "centered" : true,
-	"fontSize" : 7,
+    "position" : [12, 246],
+    "hAnchor" : "left",
+	"fontSize" : 6,
 	"color" : "gray",	
     "wrapWidth" : 126
   },

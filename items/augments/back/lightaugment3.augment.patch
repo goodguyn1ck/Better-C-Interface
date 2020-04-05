@@ -1,0 +1,16 @@
+[
+
+[{ "op" : "replace", "path" : "/shortdescription", "value" : "Back - ^#fff03f;Light III" }],
+
+[{ "op" : "replace", "path" : "/category", "value" : "eppAugment" }],
+
+[{ "op" : "replace", "path" : "/price", "value" : 9000 }],
+
+[{ "op" : "replace", "path" : "/rarity", "value" : "Rare" }],
+
+[{ "op" : "test", "path" : "/tooltipKind", "inverse" : true },
+{ "op": "add", "path": "/tooltipKind", "value": [] }],
+
+[{ "op" : "replace", "path" : "/tooltipKind", "value" : "eppaugment" }]
+
+]

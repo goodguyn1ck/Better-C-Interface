@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "fireblockaugment4", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "augmentoverhaulfireblockdata", "count" : 4 },
+  "groups" : [ "craftingaugment", "auo_disassembler" ]
+}

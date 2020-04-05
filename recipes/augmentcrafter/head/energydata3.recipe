@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "augmentoverhaulenergydata", "count" : 6 },
+	{ "item" : "augmentoverhaulemptyaugment", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "energyaugment3head", "count" : 1 },
+  "groups" : [ "craftingaugment", "head" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "augmentoverhaulhealthdata", "count" : 4 },
+	{ "item" : "augmentoverhaulemptyaugment", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "healthaugment2head", "count" : 1 },
+  "groups" : [ "craftingaugment", "head" ]
+}

@@ -1,0 +1,16 @@
+[
+
+[{ "op" : "replace", "path" : "/shortdescription", "value" : "Back - ^#f915cf;Peace^#657988;keeper IV" }],
+
+[{ "op" : "replace", "path" : "/category", "value" : "eppAugment" }],
+
+[{ "op" : "replace", "path" : "/price", "value" : 12000 }],
+
+[{ "op" : "replace", "path" : "/rarity", "value" : "Legendary" }],
+
+[{ "op" : "test", "path" : "/tooltipKind", "inverse" : true },
+{ "op": "add", "path": "/tooltipKind", "value": [] }],
+
+[{ "op" : "replace", "path" : "/tooltipKind", "value" : "eppaugment" }]
+
+]

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "energyaugment2head", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "augmentoverhaulenergydata", "count" : 2 },
+  "groups" : [ "craftingaugment", "auo_disassembler" ]
+}

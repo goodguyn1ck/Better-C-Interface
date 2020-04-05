@@ -1,0 +1,90 @@
+{
+  "objectName" : "auo_disassembler",
+  "colonyTags" : [],
+  "rarity" : "Legendary",
+  "description" : "This machine is used to disassemble augments into parts.",
+  "shortdescription" : "^orange;Augment Dissasembler^white;",
+  "subtitle" : "Disassemble these bad boys",
+  "race" : "generic",
+  "category" : "other",
+  "price" : 1250,
+  "objectType" : "container",
+  "printable" : false,
+  "health" : 1.5,
+
+  "recipeGroup" : "auo_disassembler",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/auo_disassembler.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  
+  "apexDescription" : "I can put ore in here to make pixels.",
+  "avianDescription" : "Making pixels out of ore. Helpful.",
+  "floranDescription" : "Machine sssmash rocks, make money.",
+  "glitchDescription" : "Neutral. Ore can be converted into pixels here.",
+  "humanDescription" : "It prints money! Sort of...",
+  "hylotlDescription" : "A complex device for turning ore into pixels.",
+  "novakidDescription" : "A pixel machine. I always wanted one of these!",
+
+  "lightColor": [38, 114, 128],
+  "lightPosition": [0, 1],
+
+  "flickerPeriod": 1.2,
+  "flickerMinIntensity": 0.95,
+  "flickerMaxIntensity": 1.00,
+  "flickerPeriodVariance": 0.0,
+  "flickerIntensityVariance": 0.0,
+
+  "inventoryIcon" : "auo_disassemblericon.png",
+
+	"animation": "/objects/augmentoverhaul/auo_disassembler/auo_disassembler.animation",
+	"animationParts": {
+		"auo_disassembler": "auo_disassembler.png",
+		"auo_disassemblerlit": "auo_disassemblerlit.png"
+	},
+	"animationPosition": [-6, 0],
+
+	"orientations": [{
+			"imageLayers": [{
+				"image": "auo_disassembler.png:off.<frame>",
+				"fullbright": true
+			}, {
+				"image": "auo_disassemblerlit.png:off.<frame>"
+			}],
+			"imagePosition": [-6, 0],
+
+			"direction": "left",
+			"flipImages": true,
+
+			"frames": 1,
+
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		},
+		{
+			"imageLayers": [{
+				"image": "auo_disassembler.png:off.<frame>",
+				"fullbright": true
+			}, {
+				"image": "auo_disassemblerlit.png:off.<frame>"
+			}],
+			"imagePosition": [-6, 0],
+
+			"direction": "right",
+
+			"frames": 1,
+
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		}
+	],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ]
+
+
+}

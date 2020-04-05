@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "iceblockaugment3", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "iceblockaugment3chest", "count" : 1 },
+  "groups" : [ "craftingaugment", "auo_swapper" ]
+}

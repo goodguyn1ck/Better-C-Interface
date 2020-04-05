@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 8 },
+    { "item" : "copperbar", "count" : 6 },
+    { "item" : "battery", "count" : 1 }  	
+  ],
+  "output" : {
+    "item" : "auo_swapper",
+    "count" : 1
+  },
+  "duration" : 0.5,
+  "groups" : [ "craftingaugment", "auo_misc" ]
+}

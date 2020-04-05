@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "augmentoverhaulelectricdata", "count" : 4 },
+	{ "item" : "augmentoverhaulemptyaugment", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "electricblockaugment2chest", "count" : 1 },
+  "groups" : [ "craftingaugment", "chest" ]
+}

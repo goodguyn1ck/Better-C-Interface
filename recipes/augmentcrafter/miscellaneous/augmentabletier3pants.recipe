@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "canvas", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "augmentabletier3pants", "count" : 1 },
+  "groups" : [ "craftingaugment", "miscellaneous" ]
+}
