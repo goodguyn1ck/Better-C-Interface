@@ -4,5 +4,5 @@
   ],
   "duration" : 0.5,
   "output" : { "item" : "augmentoverhaulmobilitydata", "count" : 3 },
-  "groups" : [ "craftingaugment", "auo_disassembler" ]
+  "groups" : [ "auo_disassembler" ]
 }

@@ -1,0 +1,266 @@
+{
+	"objectName": "augmentoverhaul_aex",
+	"colonyTags": [],
+	"rarity": "Legendary",
+	"printable": false,
+	"description": "Pull the augments right out of Armor.",
+	"shortdescription": "^orange;Augment Extractor MKII^white;",
+	"race": "generic",
+	"category": "storage",
+	"price": 750,
+	"health": 1.5,
+
+	"objectType": "container",
+	"slotCount": 2,
+	"uiConfig": "/interface/objectcrafting/augmentoverhaul_aex.config",
+	"subtitle": "For augments",
+	"frameCooldown": 5,
+	"autoCloseCooldown": 3600,
+	"scripts": ["aex.lua"],
+
+	"apexDescription": "Machines like these are used to extract augments.",
+	"avianDescription": "How useful, I can extract any augments I want with this.",
+	"floranDescription": "Floran can exsstract augmentss with this.",
+	"glitchDescription": "Impressed. This device can extract any augment.",
+	"humanDescription": "I can use this to extract any augment. Neat!",
+	"hylotlDescription": "Such things are useful for extracting augments.",
+	"novakidDescription": "I can use this here gadget to get back my augments.",
+
+	"lightColor": [38, 114, 128],
+	"lightPosition": [0, 1],
+
+	"flickerPeriod": 1.2,
+	"flickerMinIntensity": 0.95,
+	"flickerMaxIntensity": 1.00,
+	"flickerPeriodVariance": 0.0,
+	"flickerIntensityVariance": 0.0,
+
+	"inventoryIcon": "aexicon.png",
+
+	"animation": "/objects/augmentoverhaul_aex/aex.animation",
+	"animationParts": {
+		"aex": "aex.png",
+		"aexlit": "aexlit.png"
+	},
+	"animationPosition": [-6, 0],
+
+	"orientations": [{
+			"imageLayers": [{
+				"image": "aex.png:off.<frame>",
+				"fullbright": true
+			}, {
+				"image": "aexlit.png:off.<frame>"
+			}],
+			"imagePosition": [-6, 0],
+
+			"direction": "left",
+			"flipImages": true,
+
+			"frames": 1,
+
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		},
+		{
+			"imageLayers": [{
+				"image": "aex.png:off.<frame>",
+				"fullbright": true
+			}, {
+				"image": "aexlit.png:off.<frame>"
+			}],
+			"imagePosition": [-6, 0],
+
+			"direction": "right",
+
+			"frames": 1,
+
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		}
+	],
+
+	"augmentMap": {
+		"electricblock": "electricblockaugment",
+		"electricblock2": "electricblockaugment2",
+		"electricblock3": "electricblockaugment3",
+		"electricblock4": "electricblockaugment4",
+		"electricblock5": "electricblockaugment5",
+		"fireblock": "fireblockaugment",
+		"fireblock2": "fireblockaugment2",
+		"fireblock3": "fireblockaugment3",
+		"fireblock4": "fireblockaugment4",
+		"fireblock5": "fireblockaugment5",
+		"healing1": "healingaugment1",
+		"healing2": "healingaugment2",
+		"healing3": "healingaugment3",
+		"healing4": "healingaugment4",
+		"healing5": "healingaugment5",
+		"iceblock": "iceblockaugment",
+		"iceblock2": "iceblockaugment2",
+		"iceblock3": "iceblockaugment3",
+		"iceblock4": "iceblockaugment4",
+		"iceblock5": "iceblockaugment5",
+		"light1": "lightaugment1",
+		"light2": "lightaugment2",
+		"light3": "lightaugment3",
+		"light4": "lightaugment4",
+		"light5": "lightaugment5",
+		"peacekeeper1": "peacekeeperaugment1",
+		"peacekeeper2": "peacekeeperaugment2",
+		"peacekeeper3": "peacekeeperaugment3",
+		"peacekeeper4": "peacekeeperaugment4",
+		"peacekeeper5": "peacekeeperaugment5",
+		"poisonblock": "poisonblockaugment",
+		"poisonblock2": "poisonblockaugment2",
+		"poisonblock3": "poisonblockaugment3",
+		"poisonblock4": "poisonblockaugment4",
+		"poisonblock5": "poisonblockaugment5",
+		"thorns": "thornsaugment",
+		"thorns2": "thornsaugment2",
+		"thorns3": "thornsaugment3",
+		"thorns4": "thornsaugment4",
+		"thorns5": "thornsaugment5"
+	},
+
+	"headMap": {
+		"damage1head": "damageaugment1head",
+		"damage2head": "damageaugment2head",
+		"damage3head": "damageaugment3head",
+		"damage4head": "damageaugment4head",
+		"damage5head": "damageaugment5head",
+		"energy1head": "energyaugment1head",
+		"energy2head": "energyaugment2head",
+		"energy3head": "energyaugment3head",
+		"energy4head": "energyaugment4head",
+		"energy5head": "energyaugment5head",
+		"health1head": "healthaugment1head",
+		"health2head": "healthaugment2head",
+		"health3head": "healthaugment3head",
+		"health4head": "healthaugment4head",
+		"health5head": "healthaugment5head"
+	},
+
+	"chestMap": {
+		"damage1": "damageaugment1",
+		"damage2": "damageaugment2",
+		"damage3": "damageaugment3",
+		"damage4": "damageaugment4",
+		"damage5": "damageaugment5",
+		"electricblock1chest": "electricblockaugment1chest",
+		"electricblock2chest": "electricblockaugment2chest",
+		"electricblock3chest": "electricblockaugment3chest",
+		"electricblock4chest": "electricblockaugment4chest",
+		"electricblock5chest": "electricblockaugment5chest",
+		"energy1": "energyaugment1",
+		"energy2": "energyaugment2",
+		"energy3": "energyaugment3",
+		"energy4": "energyaugment4",
+		"energy5": "energyaugment5",
+		"fireblock1chest": "fireblockaugment1chest",
+		"fireblock2chest": "fireblockaugment2chest",
+		"fireblock3chest": "fireblockaugment3chest",
+		"fireblock4chest": "fireblockaugment4chest",
+		"fireblock5chest": "fireblockaugment5chest",
+		"health1": "healthaugment1",
+		"health2": "healthaugment2",
+		"health3": "healthaugment3",
+		"health4": "healthaugment4",
+		"health5": "healthaugment5",
+		"healing1chest": "healingaugment1chest",
+		"healing2chest": "healingaugment2chest",
+		"healing3chest": "healingaugment3chest",
+		"healing4chest": "healingaugment4chest",
+		"healing5chest": "healingaugment5chest",
+		"iceblock1chest": "iceblockaugment1chest",
+		"iceblock2chest": "iceblockaugment2chest",
+		"iceblock3chest": "iceblockaugment3chest",
+		"iceblock4chest": "iceblockaugment4chest",
+		"iceblock5chest": "iceblockaugment5chest",
+		"peacekeeper1chest": "peacekeeperaugment1chest",
+		"peacekeeper2chest": "peacekeeperaugment2chest",
+		"peacekeeper3chest": "peacekeeperaugment3chest",
+		"peacekeeper4chest": "peacekeeperaugment4chest",
+		"peacekeeper5chest": "peacekeeperaugment5chest",
+		"poisonblock1chest": "poisonblockaugment1chest",
+		"poisonblock2chest": "poisonblockaugment2chest",
+		"poisonblock3chest": "poisonblockaugment3chest",
+		"poisonblock4chest": "poisonblockaugment4chest",
+		"poisonblock5chest": "poisonblockaugment5chest",
+		"thorns1chest": "thornsaugment1chest",
+		"thorns2chest": "thornsaugment2chest",
+		"thorns3chest": "thornsaugment3chest",
+		"thorns4chest": "thornsaugment4chest",
+		"thorns5chest": "thornsaugment5chest"
+	},
+
+	"legsMap": {
+		"lowgrav": "gravityaugment",
+		"lowgrav2": "gravityaugment2",
+		"lowgrav3": "gravityaugment3",
+		"lowgrav4": "gravityaugment4",
+		"lowgrav5": "gravityaugment5",
+		"jump": "jumpaugment",
+		"jump2": "jumpaugment2",
+		"jump3": "jumpaugment3",
+		"jump4": "jumpaugment4",
+		"jump5": "jumpaugment5",
+		"mobility": "mobilityaugment",
+		"mobility2": "mobilityaugment2",
+		"mobility3": "mobilityaugment3",
+		"mobility4": "mobilityaugment4",
+		"mobility5": "mobilityaugment5",
+		"speed": "speedaugment",
+		"speed2": "speedaugment2",
+		"speed3": "speedaugment3",
+		"speed4": "speedaugment4",
+		"speed5": "speedaugment5",
+		"swimming": "swimaugment",
+		"swimming2": "swimaugment2",
+		"swimming3": "swimaugment3",
+		"swimming4": "swimaugment4",
+		"swimming5": "swimaugment5"
+	},
+
+	"collarMap": {
+		"bouncycollar": "bouncycollar",
+
+		"healing1": "healingcollar1",
+		"healing2": "healingcollar2",
+		"healing3": "healingcollar3",
+
+		"health1": "healthcollar1",
+		"health2": "healthcollar2",
+		"health3": "healthcollar3",
+
+		"damage1": "damagecollar1",
+		"damage2": "damagecollar2",
+		"damage3": "damagecollar3",
+
+		"icebomb": "icebombcollar",
+		"poisonbomb": "poisonbombcollar",
+		"electricbomb": "electricbombcollar",
+		"firebomb": "firebombcollar",
+
+		"ghostly": "ghostlycollar",
+
+		"oblivious": "obliviouscollar",
+
+		"lowgravcollar": "lowgravcollar",
+		"shadowcollar": "shadowcollar",
+		"slaughterbite": "slaughterbite",
+		"swimcollar": "swimcollar"
+	},
+
+	"reelMap": {
+		"fast": "fishingreelfast",
+		"strong": "fishingreelstrong",
+		"long": "fishingreellong"
+	},
+
+	"lureMap": {
+		"control": "fishinglurecontrol",
+		"light": "fishinglurelight",
+		"sinking": "fishingluresinking"
+	}
+
+}

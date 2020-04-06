@@ -1,6 +1,6 @@
 [
 
-[{ "op" : "replace", "path" : "/shortdescription", "value" : "Legs - ^#e2c344;Swimming II" }],
+[{ "op" : "replace", "path" : "/shortdescription", "value" : "Legs - ^#68efdf;Swimming II" }],
 
 [{ "op" : "replace", "path" : "/category", "value" : "legsAugment" }],
 
@@ -11,6 +11,8 @@
 [{ "op" : "test", "path" : "/tooltipKind", "inverse" : true },
 { "op": "add", "path": "/tooltipKind", "value": [] }],
 
-[{ "op" : "replace", "path" : "/tooltipKind", "value" : "eppaugment" }]
+[{ "op" : "replace", "path" : "/tooltipKind", "value" : "eppaugment" }],
+
+[{ "op" : "replace", "path" : "/augment/displayName", "value" : "Legs - ^#68efdf;Swimming II" }]
 
 ]

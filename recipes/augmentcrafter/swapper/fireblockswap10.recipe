@@ -4,5 +4,5 @@
   ],
   "duration" : 0.5,
   "output" : { "item" : "fireblockaugment5", "count" : 1 },
-  "groups" : [ "craftingaugment", "auo_swapper" ]
+  "groups" : [ "auo_swapper" ]
 }

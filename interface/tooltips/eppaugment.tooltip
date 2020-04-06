@@ -2,7 +2,7 @@
   "background" : {
     "type" : "background",
     "fileHeader" : "/interface/tooltips/header_h.png",
-    "fileBody" : "/interface/tooltips/body_h2.png",
+    "fileBody" : "/interface/tooltips/body_h_augment.png",
     "fileFooter" : "/interface/tooltips/footer_h.png"
   },
   "rarityLabel" : {
