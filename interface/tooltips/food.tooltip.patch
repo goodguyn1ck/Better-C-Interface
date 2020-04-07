@@ -1,10 +1,7 @@
 [
-  {
-    "op": "replace",
-    "path": "/foodAmountLabel",
-    "value": {
+  { "op": "replace", "path": "/foodAmountLabel", "value": {
       "type" : "label",
-      "position" : [22, 80],
+      "position" : [150, 70],
       "hAnchor" : "left",
       "centered" : true,
 	  "fontSize" : 6,
@@ -12,76 +9,67 @@
       "value" : ""
     }
   },
-  {
-    "op": "replace",
-    "path": "/effectLabel",
-    "value": {
+  { "op": "replace", "path": "/effectLabel", "value": {
       "type" : "label",
-      "position" : [134, 145],
+      "position" : [150, 66],
       "fontSize" : 6,
-      "lineSpacing" : 1.0,
-      "hAnchor" : "right",
+      "lineSpacing" : 1.4,
+      "hAnchor" : "left",
       "vAnchor" : "top",
-      "wrapWidth" : 90,
       "value" : ""
     }
   },
-  {
-    "op": "replace",
-    "path": "/background",
-    "value": {
-		"type" : "background",
-		"fileHeader" : "/interface/tooltips/header.png",
-		"fileBody" : "/interface/tooltips/bodyfood.png",
-		"fileFooter" : "/interface/tooltips/footer.png"
+  { "op": "replace", "path": "/background", "value": {
+	  "type" : "background",
+	  "fileHeader" : "/interface/tooltips/header_h.png",
+	  "fileBody" : "/interface/tooltips/body_h_augment.png",
+	  "fileFooter" : "/interface/tooltips/footer_h.png"
     }
   },
-  {
-    "op": "replace",
-    "path": "/descriptionLabel",
-    "value": {
-    "type" : "label",
-		"position" : [12, 58],
-		"wrapWidth" : 120,
-		"hAnchor" : "left",
-		"vAnchor" : "top",
-		"color" : "gray",
-		"fontSize" : 6	
+  { "op": "replace", "path": "/objectImage", "value": {
+      "type" : "image",
+      "position" : [72, 72],
+      "file" : "",
+      "hAnchor" : "mid",
+      "centered" : true,
+      "maxSize" : [96, 64],
+      "minSize" : [96, 48]
     }
   },
-  {
-	"op": "replace",
-    "path": "/priceLabel",
-    "value": {
-		"type" : "label",
-		"position" : [21, 9],
-		"hAnchor" : "left",
-		"value" : "0",
-		"fontSize" : 7
+  { "op": "replace", "path": "/descriptionLabel", "value": {
+      "type" : "label",
+	  "position" : [150, 103],
+	  "wrapWidth" : 123,
+	  "hAnchor" : "left",
+	  "vAnchor" : "top",
+	  "color" : "gray",
+	  "fontSize" : 6	
+    }
+  },
+  {	"op": "replace", "path": "/priceLabel", "value": {
+	  "type" : "label",
+	  "position" : [165, 13],
+	  "hAnchor" : "left",
+	  "value" : "0",
+	  "fontSize" : 7
 	}
   },
-  {
-	"op": "replace",
-    "path": "/moneyIcon",
-    "value": {
-	    "type" : "image",
-		"position" : [8, 9],
-		"file" : "/interface/money.png"
+  { "op": "replace", "path": "/moneyIcon", "value": {
+	  "type" : "image",
+	  "position" : [149, 13],
+	  "file" : "/interface/money.png"
 	
 	}
   },
-  {
-	"op": "replace",
-    "path": "/rotTimeLabel",
-    "value": {
-	    "type" : "label",
-		"position" : [12, 72],
-		"hAnchor" : "left",
-		"vAnchor" : "top",
-		"wrapWidth" : 122,
-		"value" : "",
-		"color" : "gray",
-		"fontSize" : 7	
+  {	"op": "replace", "path": "/rotTimeLabel", "value": {
+      "type" : "label",
+      "position" : [210, 114],
+      "hAnchor" : "mid",
+      "wrapWidth" : 127,
+	  "lineSpacing" : 0.85,
+      "value" : "",
+      "color" : "gray",
+	  "fontSize" : 7
 	}
   }
 ]

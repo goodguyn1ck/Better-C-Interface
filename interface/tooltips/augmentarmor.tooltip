@@ -1,9 +1,9 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/headerarmor.png",
-    "fileBody" : "/interface/tooltips/bodyarmor.png",
-    "fileFooter" : "/interface/tooltips/footerarmor.png"
+    "fileHeader" : "/interface/tooltips/header_h_armor.png",
+    "fileBody" : "/interface/tooltips/body_h_armor.png",
+    "fileFooter" : "/interface/tooltips/footer_h_armor.png"
   },
   "rarityLabel" : {
     "type" : "label",

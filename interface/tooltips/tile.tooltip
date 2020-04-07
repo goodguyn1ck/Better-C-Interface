@@ -48,5 +48,21 @@
     "hAnchor" : "left",
     "wrapWidth" : 126,
 	"fontSize" : 7	
+  },
+  "materialIdLabel" : {
+    "type" : "label",
+    "position" : [25, 25],
+    "hAnchor" : "left",
+    "wrapWidth" : 126,
+	"fontSize" : 6,
+	"value" : ""
+  },
+  "rarityLabelLabel" : {
+    "type" : "label",
+    "position" : [25, 30],
+    "hAnchor" : "left",
+    "wrapWidth" : 126,
+	"fontSize" : 6,
+	"value" : ""
   }
 }

@@ -1,43 +1,41 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/header.png",
-    "fileBody" : "/interface/tooltips/bodymech.png",
-    "fileFooter" : "/interface/tooltips/footer.png"
+    "fileHeader" : "/interface/tooltips/header_h.png",
+    "fileBody" : "/interface/tooltips/body_h_mech.png",
+    "fileFooter" : "/interface/tooltips/footer_h.png"
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [134, 22],
+    "position" : [272, 13],
     "hAnchor" : "right",
-    "centered" : true,
-	"color" : "gray",
     "wrapWidth" : 126,
-	"fontSize" : 6
+	"fontSize" : 7
   },
   "moneyIcon" : {
     "type" : "image",
-    "position" : [8, 9],
+    "position" : [149, 13],
     "file" : "/interface/money.png"
   },
   "priceLabel" : {
     "type" : "label",
-    "position" : [21, 9],
+    "position" : [165, 13],
     "hAnchor" : "left",
     "value" : "0",
 	"fontSize" : 7
   },
   "nameLabel" : {
     "type" : "label",
-    "position" : [136, 9],
-    "hAnchor" : "right",
-    "centered" : true,
-    "wrapWidth" : 126,
+    "position" : [12, 13],
+    "hAnchor" : "left",
+	"vAnchor" : "bottom",
+	"wrapWidth" : 126,
 	"fontSize" : 7
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [12, 58],
-    "wrapWidth" : 120,
+    "position" : [150, 95],
+    "wrapWidth" : 123,
     "hAnchor" : "left",
     "vAnchor" : "top",
 	"color" : "gray",
@@ -45,16 +43,15 @@
   },
   "objectImage" : {
     "type" : "image",
-    "position" : [72, 125],
+    "position" : [72, 72],
     "file" : "",
-    "hAnchor" : "mid",
     "centered" : true,
-    "maxSize" : [40, 40],
-    "minSize" : [40, 40]
+    "maxSize" : [64, 64],
+    "minSize" : [64, 64]
   },
   "powerStatLabel" : {
     "type" : "label",
-    "position" : [12, 64],
+    "position" : [150, 103],
     "hAnchor" : "left",
     "value" : "Defense:",
 	"color" : "gray",
@@ -62,11 +59,11 @@
   },
   "protectionStatImage" : {
     "type" : "image",
-    "position" : [89, 63]
+    "position" : [228, 102]
   },
   "energyDrainLabelLabel" : {
     "type" : "label",
-    "position" : [12, 74],
+    "position" : [150, 117],
     "hAnchor" : "left",
     "value" : "Max Energy:",
 	"color" : "gray",
@@ -74,6 +71,6 @@
   },
   "energyStatImage" : {
     "type" : "image",
-    "position" : [89, 73]
+    "position" : [228, 116]
   }
 }

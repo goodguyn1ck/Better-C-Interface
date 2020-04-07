@@ -1,43 +1,39 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/header.png",
-    "fileBody" : "/interface/tooltips/bodyobject.png",
-    "fileFooter" : "/interface/tooltips/footer.png"
+    "fileHeader" : "/interface/tooltips/header_h.png",
+    "fileBody" : "/interface/tooltips/body_h.png",
+    "fileFooter" : "/interface/tooltips/footer_h.png"
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [134, 22],
+    "position" : [273, 13],
     "hAnchor" : "right",
-    "centered" : true,
-	"color" : "gray",
     "wrapWidth" : 126,
-	"fontSize" : 6
+	"fontSize" : 7
   },
   "moneyIcon" : {
     "type" : "image",
-    "position" : [8, 9],
+    "position" : [149, 13],
     "file" : "/interface/money.png"
   },
   "priceLabel" : {
     "type" : "label",
-    "position" : [21, 9],
+    "position" : [165, 13],
     "hAnchor" : "left",
     "value" : "0",
 	"fontSize" : 7
   },
   "nameLabel" : {
     "type" : "label",
-    "position" : [136, 9],
-    "hAnchor" : "right",
-    "centered" : true,
-    "wrapWidth" : 126,
+    "position" : [12, 13],
+    "hAnchor" : "left",
 	"fontSize" : 7
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [12, 58],
-    "wrapWidth" : 120,
+    "position" : [150, 123],
+    "wrapWidth" : 123,
     "hAnchor" : "left",
     "vAnchor" : "top",
 	"color" : "gray",
@@ -45,11 +41,11 @@
   },
   "largeImage" : {
     "type" : "image",
-    "position" : [72, 100],
+    "position" : [72, 72],
     "file" : "",
     "hAnchor" : "mid",
     "centered" : true,
-    "maxSize" : [96, 64],
-    "minSize" : [96, 48]
+    "maxSize" : [72, 72],
+    "minSize" : [72, 72]
   }
 }

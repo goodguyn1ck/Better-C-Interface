@@ -1,43 +1,40 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/header.png",
-    "fileBody" : "/interface/tooltips/bodyobject.png",
-    "fileFooter" : "/interface/tooltips/footer.png"
+    "fileHeader" : "/interface/tooltips/header_h.png",
+    "fileBody" : "/interface/tooltips/body_h.png",
+    "fileFooter" : "/interface/tooltips/footer_h.png"
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [134, 22],
+    "position" : [273, 13],
     "hAnchor" : "right",
-    "centered" : true,
-	"color" : "gray",
     "wrapWidth" : 126,
-	"fontSize" : 6
+	"fontSize" : 7
   },
   "moneyIcon" : {
     "type" : "image",
-    "position" : [8, 9],
+    "position" : [149, 13],
     "file" : "/interface/money.png"
   },
   "priceLabel" : {
     "type" : "label",
-    "position" : [21, 9],
+    "position" : [165, 13],
     "hAnchor" : "left",
     "value" : "0",
 	"fontSize" : 7
   },
   "nameLabel" : {
     "type" : "label",
-    "position" : [136, 9],
-    "hAnchor" : "right",
-    "centered" : true,
-    "wrapWidth" : 100,
+    "position" : [12, 13],
+    "hAnchor" : "left",
+    "wrapWidth" : 126,
 	"fontSize" : 7
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [12, 58],
-    "wrapWidth" : 120,
+    "position" : [150, 123],
+    "wrapWidth" : 125,
     "hAnchor" : "left",
     "vAnchor" : "top",
 	"color" : "gray",
@@ -45,20 +42,19 @@
   },
   "objectImage" : {
     "type" : "image",
-    "position" : [34, 101],
+    "position" : [73, 72],
     "file" : "",
     "centered" : true,
-    "maxSize" : [40, 40],
-    "minSize" : [40, 40]
+    "maxSize" : [48, 48],
+    "minSize" : [48, 48]
   },
   "effectLabel": {
-    "type": "label",
-    "position": [134, 131],
-    "fontSize": 6,
-    "lineSpacing": 1,
-    "hAnchor": "right",
-    "vAnchor": "top",
-    "wrapWidth": 90,
-    "value": ""
+    "type" : "label",
+    "position" : [150, 66],
+    "fontSize" : 6,
+    "lineSpacing" : 1.4,
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "value" : ""
   }
 }

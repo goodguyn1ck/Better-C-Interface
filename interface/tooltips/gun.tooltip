@@ -1,43 +1,41 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/header.png",
-    "fileBody" : "/interface/tooltips/bodymelee.png",
-    "fileFooter" : "/interface/tooltips/footer.png"
+    "fileHeader" : "/interface/tooltips/header_h.png",
+    "fileBody" : "/interface/tooltips/body_h.png",
+    "fileFooter" : "/interface/tooltips/footer_h.png"
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [134, 22],
+    "position" : [272, 13],
     "hAnchor" : "right",
-    "centered" : true,
-	"color" : "gray",
     "wrapWidth" : 126,
-	"fontSize" : 6
+	"fontSize" : 7
   },
   "moneyIcon" : {
     "type" : "image",
-    "position" : [8, 9],
+    "position" : [149, 13],
     "file" : "/interface/money.png"
   },
   "priceLabel" : {
     "type" : "label",
-    "position" : [21, 9],
+    "position" : [165, 13],
     "hAnchor" : "left",
     "value" : "0",
 	"fontSize" : 7
   },
   "nameLabel" : {
     "type" : "label",
-    "position" : [136, 9],
-    "hAnchor" : "right",
-    "centered" : true,
-    "wrapWidth" : 126,
+    "position" : [12, 13],
+    "hAnchor" : "left",
+	"vAnchor" : "bottom",
+	"wrapWidth" : 126,
 	"fontSize" : 7
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [12, 58],
-    "wrapWidth" : 120,
+    "position" : [150, 123],
+    "wrapWidth" : 123,
     "hAnchor" : "left",
     "vAnchor" : "top",
 	"color" : "gray",
@@ -45,91 +43,99 @@
   },
   "objectImage" : {
     "type" : "image",
-    "position" : [70, 130],
+    "position" : [72, 72],
     "file" : "",
     "centered" : true,
-    "maxSize" : [40, 40],
-    "minSize" : [40, 40]
+    "maxSize" : [64, 64],
+    "minSize" : [64, 64]
   },
   "altAbilityTitleLabel" : {
     "type" : "label",
-    "position" : [12, 95],
+    "position" : [150, 88],
     "hAnchor" : "left",
     "value" : "",
 	"color" : "gray",
-	"fontSize" : 7
+	"fontSize" : 6
   },
   "altAbilityLabel" : {
     "type" : "label",
-    "position" : [134, 95],
-    "hAnchor" : "right",
-    "centered" : true,
-    "wrapWidth" : 126,
-	"color" : "gray",
-	"fontSize" : 7
-  },
-  "speedTitleLabel" : {
-    "type" : "label",
-    "position" : [12, 73],
-    "hAnchor" : "left",
-    "value" : "Rate of Fire:",
-	"color" : "gray",
-	"fontSize" : 7
-  },
-  "speedLabel" : {
-    "type" : "label",
-    "position" : [134, 73],
+    "position" : [272, 88],
     "hAnchor" : "right",
     "wrapWidth" : 126,
-	"color" : "gray",
-	"fontSize" : 7
+	"fontSize" : 6	
   },
   "damagePerShotTitleLabel" : {
     "type" : "label",
-    "position" : [12, 82],
+    "position" : [150, 80],
     "hAnchor" : "left",
     "value" : "Damage Per Shot:",
 	"color" : "gray",
-	"fontSize" : 7
+	"fontSize" : 6
   },
   "damagePerShotLabel" : {
     "type" : "label",
-    "position" : [134, 82],
+    "position" : [272, 80],
     "hAnchor" : "right",
     "wrapWidth" : 126,
+	"fontSize" : 6	
+  },
+  "speedTitleLabel" : {
+    "type" : "label",
+    "position" : [150, 72],
+    "hAnchor" : "left",
+    "value" : "Rate of Fire:",
 	"color" : "gray",
-	"fontSize" : 7
+	"fontSize" : 6
+  },
+  "speedLabel" : {
+    "type" : "label",
+    "position" : [272, 72],
+    "hAnchor" : "right",
+    "wrapWidth" : 126,
+	"fontSize" : 6
   },
   "energyPerShotTitleLabel" : {
     "type" : "label",
-    "position" : [12, 64],
+    "position" : [150, 64],
     "hAnchor" : "left",
     "value" : "Energy Per Shot:",
 	"color" : "gray",
-	"fontSize" : 7
+	"fontSize" : 6
   },
   "energyPerShotLabel" : {
     "type" : "label",
-    "position" : [134, 64],
+    "position" : [272, 64],
     "hAnchor" : "right",
     "wrapWidth" : 126,
+	"fontSize" : 6
+  },
+  "levelTitleLabel" : {
+    "type" : "label",
+    "position" : [150, 28],
+    "hAnchor" : "left",
+    "value" : "Level:",
 	"color" : "gray",
-	"fontSize" : 7
+	"fontSize" : 6
+  },
+  "levelLabel" : {
+    "value" : "",  
+    "type" : "label",
+    "position" : [172, 28],
+    "hAnchor" : "left",
+	"fontSize" : 6
   },
   "handednessLabel" : {
     "type" : "label",
-    "position" : [72, 157],
-    "hAnchor" : "mid",
-    "centered" : true,
+    "position" : [150, 36],
+    "hAnchor" : "left",
 	"color" : "gray",
 	"fontSize" : 6
   },
   "damageKindImage" : {
     "type" : "image",
-    "position" : [125, 154],
+    "position" : [119, 105],
     "file" : "",
-    "centered" : true,
-    "maxSize" : [16, 16],
-    "minSize" : [16, 16]
+    "maxSize" : [18, 18],
+    "minSize" : [18, 18]
   }
 }

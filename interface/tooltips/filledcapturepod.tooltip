@@ -1,9 +1,9 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/headercapturepod.png",
-    "fileBody" : "/interface/tooltips/bodycapturepod.png",
-    "fileFooter" : "/interface/tooltips/footercapturepod.png"
+    "fileHeader" : "/interface/tooltips/header_h_capturepod.png",
+    "fileBody" : "/interface/tooltips/body_h_capturepod.png",
+    "fileFooter" : "/interface/tooltips/footer_h_capturepod.png"
   },
   "rarityLabel" : {
     "type" : "label",
@@ -112,11 +112,11 @@
   },
   "resistanceTitleLabel" : {
     "type" : "label",
-    "position" : [33, 13],
-    "hAnchor" : "left",
+    "position" : [115, 117],
+    "hAnchor" : "right",
 	"color" : "gray",
 	"fontSize" : 6,
-    "value" : ":Resistance"
+    "value" : "Resistance:"
   },
   "resistanceLabel" : {
     "type" : "label",
@@ -184,7 +184,7 @@
   },
   "str1Image" : {
     "type" : "image",
-    "position" : [20, 22],
+    "position" : [128, 114],
     "file" : "",
     "centered" : true,
     "maxSize" : [18, 18],
@@ -192,7 +192,7 @@
   },
   "str2Image" : {
     "type" : "image",
-    "position" : [20, 22],
+    "position" : [128, 119],
     "file" : "",
     "centered" : true,
     "maxSize" : [18, 18],
@@ -200,7 +200,7 @@
   },
   "str3Image" : {
     "type" : "image",
-    "position" : [20, 22],
+    "position" : [128, 119],
     "file" : "",
     "centered" : true,
     "maxSize" : [18, 18],
@@ -208,7 +208,7 @@
   },
   "str4Image" : {
     "type" : "image",
-    "position" : [20, 22],
+    "position" : [128, 119],
     "file" : "",
     "centered" : true,
     "maxSize" : [18, 18],
@@ -216,7 +216,7 @@
   },
   "str5Image" : {
     "type" : "image",
-    "position" : [20, 22],
+    "position" : [128, 119],
     "file" : "",
     "centered" : true,
     "maxSize" : [18, 18],

@@ -1,78 +1,74 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/header.png",
-    "fileBody" : "/interface/tooltips/bodyfishingrod.png",
-    "fileFooter" : "/interface/tooltips/footer.png"
+    "fileHeader" : "/interface/tooltips/header_h.png",
+    "fileBody" : "/interface/tooltips/body_h_fishrod.png",
+    "fileFooter" : "/interface/tooltips/footer_h.png"
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [134, 65],
+    "position" : [273, 13],
     "hAnchor" : "right",
-    "centered" : true,
-	"color" : "gray",
     "wrapWidth" : 126,
-	"fontSize" : 6
+	"fontSize" : 7
   },
   "moneyIcon" : {
     "type" : "image",
-    "position" : [8, 9],
+    "position" : [149, 13],
     "file" : "/interface/money.png"
   },
   "priceLabel" : {
     "type" : "label",
-    "position" : [21, 9],
+    "position" : [165, 13],
     "hAnchor" : "left",
     "value" : "0",
-    "fontSize" : 7
+	"fontSize" : 7
   },
   "nameLabel" : {
     "type" : "label",
-    "position" : [136, 9],
-    "hAnchor" : "right",
-    "centered" : true,
-    "wrapWidth" : 126,
-    "fontSize" : 7
+    "position" : [12, 13],
+    "hAnchor" : "left",
+	"fontSize" : 7
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [12, 104],
+    "position" : [150, 85],
+    "wrapWidth" : 123,
     "hAnchor" : "left",
     "vAnchor" : "top",
-    "wrapWidth" : 120,
 	"color" : "gray",
 	"fontSize" : 6
   },
   "objectImage" : {
     "type" : "image",
-    "position" : [72, 144],
+    "position" : [72, 72],
     "file" : "",
-    "centered" : true,
     "hAnchor" : "mid",
-    "maxSize" : [70, 54],
-    "minSize" : [70, 54]
+    "centered" : true,
+    "maxSize" : [96, 64],
+    "minSize" : [96, 48]
   },
   "reelIconImage" : {
     "type" : "image",
-    "position" : [12, 44],
+    "position" : [148, 109],
     "zlevel" : 3,
     "file" : ""
   },
   "reelNameLabel" : {
     "type" : "label",
-    "position" : [40, 48],
+    "position" : [172, 113],
     "value" : "",
     "fontSize" : 7
   },
   "lureIconImage" : {
     "type" : "image",
-    "position" : [12, 23],
+    "position" : [148, 91],
     "zlevel" : 3,
     "file" : ""
   },
   "lureNameLabel" : {
     "type" : "label",
-    "position" : [40, 27],
+    "position" : [172, 95],
     "value" : "",
     "fontSize" : 7
   }

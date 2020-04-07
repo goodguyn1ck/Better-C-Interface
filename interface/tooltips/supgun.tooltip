@@ -28,6 +28,8 @@
     "type" : "label",
     "position" : [12, 13],
     "hAnchor" : "left",
+	"vAnchor" : "bottom",
+	"wrapWidth" : 126,
 	"fontSize" : 7
   },
   "descriptionLabel" : {
@@ -161,9 +163,9 @@
   },
   "damageKindImage" : {
     "type" : "image",
-    "position" : [11, 110],
+    "position" : [119, 108],
     "file" : "",
-    "maxSize" : [16, 16],
-    "minSize" : [16, 16]
+    "maxSize" : [18, 18],
+    "minSize" : [18, 18]
   }
 }
