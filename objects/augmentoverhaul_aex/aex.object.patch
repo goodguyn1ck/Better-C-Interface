@@ -1,0 +1,131 @@
+[
+  {
+    "op": "remove",
+    "path": "/chestMap/thornschest"
+  },
+  {
+    "op": "add",
+    "path": "/chestMap/thorns1chest",
+    "value": "thornsaugment1chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/fireblock1chest",
+    "value": "fireblockaugment1chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/fireblock2chest",
+    "value": "fireblockaugment2chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/fireblock3chest",
+    "value": "fireblockaugment3chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/fireblock4chest",
+    "value": "fireblockaugment4chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/fireblock5chest",
+    "value": "fireblockaugment5chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/iceblock1chest",
+    "value": "iceblockaugment1chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/iceblock2chest",
+    "value": "iceblockaugment2chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/iceblock3chest",
+    "value": "iceblockaugment3chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/iceblock4chest",
+    "value": "iceblockaugment4chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/iceblock5chest",
+    "value": "iceblockaugment5chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/poisonblock1chest",
+    "value": "poisonblockaugment1chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/poisonblock2chest",
+    "value": "poisonblockaugment2chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/poisonblock3chest",
+    "value": "poisonblockaugment3chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/poisonblock4chest",
+    "value": "poisonblockaugment4chest"
+  },
+  {
+    "op": "replace",
+    "path": "/chestMap/poisonblock5chest",
+    "value": "poisonblockaugment5chest"
+  },
+  {
+    "op": "remove",
+    "path": "/legsMap/swiming"
+  },
+  {
+    "op": "remove",
+    "path": "/legsMap/swiming2"
+  },
+  {
+    "op": "remove",
+    "path": "/legsMap/swiming3"
+  },
+  {
+    "op": "remove",
+    "path": "/legsMap/swiming4"
+  },
+  {
+    "op": "remove",
+    "path": "/legsMap/swiming5"
+  },
+  {
+    "op": "add",
+    "path": "/legsMap/swimming",
+    "value": "swimaugment"
+  },
+  {
+    "op": "add",
+    "path": "/legsMap/swimming2",
+    "value": "swimaugment2"
+  },
+  {
+    "op": "add",
+    "path": "/legsMap/swimming3",
+    "value": "swimaugment3"
+  },
+  {
+    "op": "add",
+    "path": "/legsMap/swimming4",
+    "value": "swimaugment4"
+  },
+  {
+    "op": "add",
+    "path": "/legsMap/swimming5",
+    "value": "swimaugment5"
+  }
+]

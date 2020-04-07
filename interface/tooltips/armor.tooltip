@@ -1,9 +1,9 @@
 {
   "background" : {
     "type" : "background",
-    "fileHeader" : "/interface/tooltips/headerarmor.png",
-    "fileBody" : "/interface/tooltips/bodyarmor.png",
-    "fileFooter" : "/interface/tooltips/footerarmor.png"
+    "fileHeader" : "/interface/tooltips/header_h_armor.png",
+    "fileBody" : "/interface/tooltips/body_h_armor.png",
+    "fileFooter" : "/interface/tooltips/footer_h_armor.png"
   },
   "rarityLabel" : {
     "type" : "label",
@@ -47,6 +47,25 @@
     "scale" : 2,
     "maxSize" : [64, 64],
     "minSize" : [64, 64]
+  },
+
+  "augmentIconImageBackground" : {
+    "type" : "image",
+    "position" : [218, 116],
+    "zlevel" : 2,
+    "file" : "/interface/tooltips/augment.png"
+  },
+  "augmentIconImage" : {
+    "type" : "image",
+    "position" : [218, 116],
+    "zlevel" : 3,
+    "file" : ""
+  },
+  "augmentNameLabel" : {
+    "type" : "label",
+    "position" : [242, 121],
+	"fontSize" : 7,
+    "value" : ""
   },
 
   "statusList" : {
