@@ -1,0 +1,99 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"stage": {
+				"default": "blockprinter",
+				"states": {
+					"blockprinter": {
+						"frames": 8,
+						"cycle": 1,
+						"mode": "loop",
+						"properties": {
+							"lightsOn": ["scifiglow"]
+						}
+					},
+					"instantblockprinter": {
+						"frames": 8,
+						"cycle": 1,
+						"mode": "loop",
+						"properties": {
+							"lightsOn": ["scifiglow"]
+						}
+					}
+				}
+			}
+        },
+		"parts": {
+			"chassis": {
+				"properties": {
+					"centered": true
+				},
+				"partStates": {
+					"stage": {
+						"blockprinter": {
+							"properties": {
+								"image": "blockprinter.png:<color>.<frame>"
+							}
+						},
+						
+						"instantblockprinter": {
+							"properties": {
+								"image": "instantblockprinter.png:<color>.<frame>"
+							}
+						}
+					}
+				},
+
+				"light": {
+					"properties": {
+						"centered": true,
+						"fullbright": false
+					},
+					"partStates": {
+						"stage": {
+							"blockprinter": {
+								"properties": {
+									"image": "blockprinterlit.png:<color>.<frame>"
+								}
+							},
+
+							"instantblockprinter": {
+								"properties": {
+									"image": "instantblockprinterlit.png:<color>.<frame>"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+    },
+	"sounds": {
+		"fanfare": ["/sfx/cinematics/mission_unlock_event.ogg"],
+		"fanfare2": ["/sfx/cinematics/license_acquired_event.ogg"]
+	},
+
+	"lights": {
+        "scifiglow" : {
+            "active" : false,
+            "position" : [0, 2],
+            "color" : [38, 63, 76],
+            "flickerPeriod" : 0.8,
+            "flickerMinIntensity" : 0.95,
+            "flickerMaxIntensity" : 1.0,
+            "flickerPeriodVariance" : 0.0,
+            "flickerIntensityVariance" : 0.0
+        }
+	},
+
+	"particleEmitters": {
+		"dust": {
+			"emissionRate": 0.0,
+			"burstCount": 10,
+			"offsetRegion": [-2, -2, 2, 2],
+			"particles": [{
+				"particle": "dust2"
+			}]
+		}
+	}
+}

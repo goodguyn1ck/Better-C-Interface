@@ -1,0 +1,173 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "craftingblocks",
+        "states" : {
+          "craftingblocks" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop",
+			"properties" : {
+			  "collision" : "platform"
+			}
+          },
+          "craftingblocks2" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+          },
+		  "craftingblocks3" : {
+		    "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop",
+			"properties" : {
+              "lightsOn" : [ "fireglow" ],
+              "persistentSound" : "/sfx/objects/campfire.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+		    }
+		  },
+          "craftingblocks4" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop",
+            "properties" : {
+              "persistentSound" : "/sfx/objects/craftingwheel_loop.ogg",
+              "persistentSoundRangeMultiplier" : 0.25
+            }
+          },
+		  "craftingblocks5" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+          },
+		  "craftingblocks6" : {
+            "frames" : 1,
+            "cycle" : 1,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+	
+    "parts" : {
+      "chassis" : {
+        "properties" : {
+          "centered" : true
+        },
+        "partStates" : {
+          "stage" : {
+            "craftingblocks" : {
+              "properties" : {
+                "image" : "craftingblocks.png:<color>.<frame>"
+              }
+            },
+
+            "craftingblocks2" : {
+              "properties" : {
+                "image" : "craftingblocks2.png:<color>.<frame>"
+              }
+            },
+			
+			"craftingblocks3" : {
+              "properties" : {
+                "image" : "craftingblocks3lit.png:<color>.<frame>"
+              }
+            },
+
+            "craftingblocks4" : {
+              "properties" : {
+                "image" : "craftingblocks4.png:<color>.<frame>"
+              }
+            },
+			
+			"craftingblocks5" : {
+              "properties" : {
+                "image" : "craftingblocks5.png:<color>.<frame>"
+              }
+            },
+			
+			"craftingblocks6" : {
+              "properties" : {
+                "image" : "craftingblocks6lit.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      },
+	  
+	  "fire" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : false
+        },
+        "partStates" : {
+          "stage" : {
+            "craftingblocks" : {
+              "properties" : {
+                "image" : "craftingblocks.png:<color>.<frame>"
+              }
+            },
+
+            "craftingblocks2" : {
+              "properties" : {
+                "image" : "craftingblocks2.png:<color>.<frame>"
+              }
+            },
+			
+			"craftingblocks3" : {
+              "properties" : {
+                "image" : "craftingblocks3.png:<color>.<frame>"
+              }
+            },
+
+            "craftingblocks4" : {
+              "properties" : {
+                "image" : "craftingblocks4.png:<color>.<frame>"
+              }
+            },
+			
+			"craftingblocks5" : {
+              "properties" : {
+                "image" : "craftingblocks5.png:<color>.<frame>"
+              }
+            },
+			
+			"craftingblocks6" : {
+              "properties" : {
+                "image" : "craftingblocks6.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "sounds" : {
+    "fanfare" : ["/sfx/cinematics/mission_unlock_event.ogg"],
+    "fanfare2" : ["/sfx/cinematics/license_acquired_event.ogg"]
+  },
+  
+  "lights" : {
+    "fireglow" : {
+      "active" : false,
+      "position" : [0, 1],
+      "color" : [97, 54, 37],
+      "flickerPeriod" : 0.3,
+      "flickerMinIntensity" : 0.95,
+      "flickerMaxIntensity" : 1,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    }  
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

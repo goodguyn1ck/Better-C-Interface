@@ -1,17 +1,15 @@
 [
-  {
-    "op": "add",
-    "path": "/labels/headAugment",
-    "value": "Head Augment"
-  },
-  {
-    "op": "add",
-    "path": "/labels/chestAugment",
-    "value": "Chest Augment"
-  },
-  {
-    "op": "add",
-    "path": "/labels/legsAugment",
-    "value": "Legs Augment"
-  }
+	//armor
+  { "op": "add", "path": "/labels/headAugment", "value": "Head Augment" },
+  { "op": "add", "path": "/labels/chestAugment", "value": "Chest Augment" },
+  { "op": "add", "path": "/labels/legsAugment", "value": "Legs Augment" },
+	//blocks
+  { "op": "add", "path": "/labels/soils", "value": "^#d4a99b;Soil Block" },
+  { "op": "add", "path": "/labels/minerals", "value": "^#d2d49b;Mineral Block" },
+  { "op": "add", "path": "/labels/bricks", "value": "^#a6d49b;Building Block" },
+  { "op": "add", "path": "/labels/wood", "value": "^#9bd4bd;Wood Block" },
+  { "op": "add", "path": "/labels/industrial", "value": "^#9bbed4;Industrial Block" },
+  { "op": "add", "path": "/labels/greenary", "value": "^#a59bd4;Greenary Block" },
+  { "op": "add", "path": "/labels/organic", "value": "^#d19bd4;Organic Block" },
+  { "op": "add", "path": "/labels/platform", "value": "^#d49baa;Platform Block" }
 ]

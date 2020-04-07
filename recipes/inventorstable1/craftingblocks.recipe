@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "logblock", "count" : 9 },
+	{ "item" : "cobblestonematerial", "count" : 5 },
+	{ "item" : "ironbar", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "craftingblocks",
+    "count" : 1
+  },
+  "duration" : 0.5,
+  "groups" : [ "inventorstable", "modded_crafting", "craftingstations", "all" ]
+}

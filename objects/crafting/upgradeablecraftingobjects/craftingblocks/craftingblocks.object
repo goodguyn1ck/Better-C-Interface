@@ -1,0 +1,295 @@
+{
+  "objectName" : "craftingblocks",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Uncommon",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "breakDropOptions" : [],
+
+  "price" : 49,
+  "printable" : false,
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+
+  "animation" : "craftingblocks.animation",
+  "animationPosition" : [0, 12],
+  
+  "inventoryIcon" : "craftingblocksicon.png",
+  "placementImage" : "craftingblocks.png:default.default",
+  "placementImagePosition" : [-16, 0],    
+
+  "description" : "This table can help you craft basic building materials.",
+  "shortdescription" : "^#FF5454;Carpenter's Table^white;",
+
+  "apexDescription" : "A table that's fit for basic carpentry.",
+  "avianDescription" : "A chance to showcase one's carpentry abilities.",
+  "floranDescription" : "Floran ussse table to make nice housse.",
+  "glitchDescription" : "Inspired. Crafting module activated.",
+  "humanDescription" : "I could make a well furnished home with this.",
+  "hylotlDescription" : "All you need to make a house into a home.",
+  "novakidDescription" : "I could make some basic materials with this table.",
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 6,
+
+  "upgradeStages" : [
+    {
+      "animationState" : "craftingblocks",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "craftingblocksicon.png",
+        "placementImage" : "craftingblocks.png:default.default",
+        "placementImagePosition" : [-16, 0],    
+
+        "description" : "This table can help you craft basic wooden building materials.",
+        "shortdescription" : "^#FF5454;Carpenter's Table^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingblocks.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : "^#FF5454;Carpenter's Table^white;",
+            "subtitle" : "^#b9b5b2;Wooden planking and trimming^white;",
+            "icon" : {
+              "file" : "/interface/crafting/big_icons/blockprinter/cb1.png"
+            }
+          }
+        },
+        "filter" : [ "cb_wood", "cb_wood_platforms" ],
+        "upgradeMaterials" : [
+          { "item" : "tungstenbar", "count" : 6 },
+          { "item" : "liquidlava", "count" : 10 },
+          { "item" : "copperbar", "count" : 6 }       
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "craftingblocks2",
+
+      "itemSpawnParameters" : {
+        "price" : 290,
+        "inventoryIcon" : "craftingblocks2icon.png",
+        "placementImage" : "craftingblocks2.png:default.default",
+        "placementImagePosition" : [-16, 0],    
+
+        "description" : "This table can help you craft planks, bricks and other building materials.",
+        "shortdescription" : "^#FFEE54;Constructor's Table^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingblocks2.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : "^#FFEE54;Constructor's Table^white;",
+            "subtitle" : "^#b9b5b2;Foundation Materials^white;",
+            "icon" : {
+              "file" : "/interface/crafting/big_icons/blockprinter/cb2.png"
+            }
+          }
+        },
+        "filter" : [ "cb_wood", "cb_wood_platforms", "cb_bricks", "cb_bricks_platforms" ],	
+        "upgradeMaterials" : [
+          { "item" : "titaniumbar", "count" : 6 },
+          { "item" : "smallbattery", "count" : 10 },
+          { "item" : "silverbar", "count" : 6 }
+        ]        
+      },
+
+      "learnBlueprintsOnPickup" : [],
+	  
+	  "upgradeSoundEffect" : "fanfare2",
+      "upgradeParticleEffect" : "dust"
+    },
+	
+	{
+      "animationState" : "craftingblocks3",
+
+      "itemSpawnParameters" : {
+        "price" : 590,	  
+        "inventoryIcon" : "craftingblocks3icon.png",
+        "placementImage" : "craftingblocks3.png:default.default",
+        "placementImagePosition" : [-16, 0],   
+
+        "description" : "Builder's Workbench is used to produce metallic plates, supports and other building materials.",
+        "shortdescription" : "^#76FF54;Builder's Workbench^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingblocks3.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : "^#76FF54;Builder's Workbench^white;",
+            "subtitle" : "^#b9b5b2;Metal Fortifications^white;",
+            "icon" : {
+              "file" : "/interface/crafting/big_icons/blockprinter/cb3.png"
+            }
+          }
+        },
+        "filter" : [ "cb_wood", "cb_wood_platforms", "cb_bricks", "cb_bricks_platforms", "cb_industrial", "cb_industrial_platforms" ],
+        "upgradeMaterials" : [
+          { "item" : "durasteelbar", "count" : 6 },
+		  { "item" : "battery", "count" : 3 },
+          { "item" : "glass", "count" : 10 },
+          { "item" : "goldbar", "count" : 7 }
+        ],
+        "craftingSound" : "/sfx/interface/crafting_tech1.ogg"		
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+	
+	{
+      "animationState" : "craftingblocks4",
+
+      "itemSpawnParameters" : {
+        "price" : 1490,
+        "inventoryIcon" : "craftingblocks4icon.png",
+        "placementImage" : "craftingblocks4.png:default.default",
+        "placementImagePosition" : [-16, 0],   
+
+        "description" : "Use this machine to produce soils, crystals, minerals and other building materials.",
+        "shortdescription" : "^#54FFCC;Mineral Reconstructor^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingblocks4.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : "^#54FFCC;Material Reconstructor^white;",
+            "subtitle" : "^#b9b5b2;Crystals, minerals, soils and more!^white;",
+            "icon" : {
+              "file" : "/interface/crafting/big_icons/blockprinter/cb4.png"
+            }
+          }
+        },
+        "filter" : [ "cb_wood", "cb_wood_platforms", "cb_bricks", "cb_bricks_platforms", "cb_industrial", "cb_industrial_platforms", "cb_soils", "cb_soils_platforms", "cb_minerals", "cb_minerals_platforms" ],
+        "upgradeMaterials" : [
+          { "item" : "refinedaegisalt", "count" : 8 },
+          { "item" : "refinedferozium", "count" : 8 },
+          { "item" : "refinedviolium", "count" : 7 },
+		  { "item" : "diamond", "count" : 10 },
+		  { "item" : "siliconboard", "count" : 5 }
+        ],		  
+        "craftingSound" : "/sfx/interface/crafting_tech1.ogg"
+      },
+
+      "learnBlueprintsOnPickup" : [],
+	  
+      "upgradeSoundEffect" : "fanfare2",
+      "upgradeParticleEffect" : "dust"	  
+    },
+	
+	{
+      "animationState" : "craftingblocks5",
+
+      "itemSpawnParameters" : {
+        "price" : 2990,
+        "inventoryIcon" : "craftingblocks5icon.png",
+        "placementImage" : "craftingblocks5.png:default.default",
+        "placementImagePosition" : [-16, 0],   
+
+        "description" : "Use this machine to grow complex living organisms, greenary, and other building materials.",
+        "shortdescription" : "^#5498FF;Topiary Factory^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingblocks5.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : "^#5498FF;Topiary Factory^white;",
+            "subtitle" : "Complex Living Organisms",
+            "icon" : {
+              "file" : "/interface/crafting/big_icons/blockprinter/cb5.png"
+            }
+          }
+        },
+        "filter" : [ "cb_wood", "cb_wood_platforms", "cb_bricks", "cb_bricks_platforms", "cb_industrial", "cb_industrial_platforms", "cb_soils", "cb_soils_platforms", "cb_minerals", "cb_minerals_platforms", "cb_greenary", "cb_greenary_platforms", "cb_organic", "cb_organic_platforms" ],
+        "craftingSound" : "/sfx/interface/crafting_tech1.ogg",
+        "upgradeMaterials" : [
+			{ "item" : "solariumstar", "count" : 50 },
+			{ "item" : "voxel10k", "count" : 5 },
+			{ "item" : "battery", "count" : 5 },
+			{ "item" : "diamond", "count" : 10 },
+			{ "item" : "siliconboard", "count" : 6 }
+        ]		
+      },
+
+      "learnBlueprintsOnPickup" : [],
+	  
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"	  
+    },
+	
+	{
+      "animationState" : "craftingblocks6",
+
+      "itemSpawnParameters" : {
+        "price" : 14990,
+        "inventoryIcon" : "craftingblocks6icon.png",
+        "placementImage" : "craftingblocks6.png:default.default",
+        "placementImagePosition" : [-16, 0],   
+
+        "description" : "Use this machine to produce materials quick, because dad said so.",
+        "shortdescription" : "^#AA54FF;Dad's own Workbench^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/craftingblocks6.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : "^#AA54FF;Dad's own Workbench^white;",
+            "subtitle" : "You have to be quick! Get those materials and win the game!",
+            "icon" : {
+              "file" : "/interface/crafting/big_icons/blockprinter/cb6.png"
+            }
+          }
+        },
+        "filter" : [ "cb_wood", "cb_wood_platforms", "cb_bricks", "cb_bricks_platforms", "cb_industrial", "cb_industrial_platforms", "cb_soils", "cb_soils_platforms", "cb_minerals", "cb_minerals_platforms", "cb_greenary", "cb_greenary_platforms", "cb_organic", "cb_organic_platforms" ],
+        "craftingSound" : "/sfx/interface/crafting_tech1.ogg"
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+
+  "orientations" : [
+    {
+      "image" : "craftingblocks.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+	  
+      
+	  
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+	  
+      "anchors" : [ "bottom" ],
+	  "collision" : "solid",
+	  "collisionSpaces" : [ [-1, 0], [0, 0], [1, 0], [2, 0] ]
+    },
+    {
+      "image" : "craftingblocks.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+	  
+      
+	  
+      "spaceScan" : 0.1,
+	  
+      "anchors" : [ "bottom" ],
+	  "collision" : "solid",
+	  "collisionSpaces" : [ [-1, 0], [0, 0], [1, 0], [2, 0] ]
+    }
+  ]
+}

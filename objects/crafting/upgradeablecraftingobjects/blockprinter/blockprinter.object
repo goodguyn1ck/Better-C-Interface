@@ -1,0 +1,138 @@
+{
+  "objectName" : "blockprinter",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "race" : "generic",
+  "category" : "crafting",  
+  
+  "breakDropOptions" : [],  
+
+  "price" : 1990,
+  "printable" : false,
+  "lightColor" : [23, 33, 38],
+  
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.0,
+  
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+  
+  "animation" : "blockprinter.animation",  
+  "animationPosition" : [24, 20],  
+  
+  "inventoryIcon" : "blockprintericon.png",  
+  "placementImage" : "blockprinter.png:default.default",
+  "placementImagePosition" : [0, 0],  
+
+  "description" : "This machine can reorganize pixels into blocks.",
+  "shortdescription" : "^#00AEFF;Block Printer^white;",
+
+
+  "apexDescription" : "A block printer... So few people have access to these.",
+  "avianDescription" : "Block printing... The technology that changed the universe.",
+  "floranDescription" : "Pretty pixelsss print pretty blockss for Floran.",
+  "glitchDescription" : "In love. Such technology is art.",
+  "humanDescription" : "Block printing... Near god-like power.",
+  "hylotlDescription" : "Block printing, the power of the pixel at my fingertips... The 'god particle'.",
+  "novakidDescription" : "Block printing is pretty fancy.",
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 2,
+
+  "upgradeStages" : [
+    {
+      "animationState" : "blockprinter",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "blockprintericon.png",
+        "placementImage" : "blockprinter.png:default.default",
+        "placementImagePosition" : [0, 0],    
+
+        "description" : "This machine can reorganize pixels into blocks.",
+        "shortdescription" : "^#00AEFF;Block Printer^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/blockprinter.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " ^#00AEFF;Block Printer^white;",
+            "subtitle" : " ^#b9b5b2;Pixels into blocks",
+            "icon" : {
+              "file" : "/interface/crafting/big_icons/blockprinter/bp.png"
+            }
+          }
+        },
+        "filter" : [ "bp_wood", "bp_bricks", "bp_industrial", "bp_soils", "bp_minerals", "bp_greenary", "bp_organic", "bp_platforms" ],
+        "craftingSound" : "/sfx/interface/crafting_tech1.ogg",		
+        "upgradeMaterials" : [
+			{ "item" : "solariumstar", "count" : 50 },
+			{ "item" : "voxel10k", "count" : 5 },
+			{ "item" : "battery", "count" : 5 },
+			{ "item" : "diamond", "count" : 10 },
+			{ "item" : "siliconboard", "count" : 6 }      
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+	{
+      "animationState" : "instantblockprinter",
+
+      "itemSpawnParameters" : {
+        "price" : 19990,
+        "inventoryIcon" : "instantblockprintericon.png",
+        "placementImage" : "instantblockprinter.png:default.default",
+        "placementImagePosition" : [0, 0],   
+
+        "description" : "^#b9b5b2;Print any blocks you have picked up, in no time.",
+        "shortdescription" : "^#00AEFF;Instant Block Printer"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/blockprinter2.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " ^#00AEFF;Instant Block Printer",
+            "subtitle" : " ^#b9b5b2;Pixels into blocks!",
+            "icon" : {
+              "file" : "/interface/crafting/big_icons/blockprinter/ibp.png"
+            }
+          }
+        },
+        "filter" : [ "bp_wood", "bp_bricks", "bp_industrial", "bp_soils", "bp_minerals", "bp_greenary", "bp_organic", "bp_platforms" ],
+        "craftingSound" : "/sfx/interface/crafting_tech1.ogg"		
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],	
+  
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "blockprinter.png:<color>.<frame>", "fullbright" : true } ],
+
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "blockprinter.png:<color>.<frame>", "fullbright" : true } ],
+
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
