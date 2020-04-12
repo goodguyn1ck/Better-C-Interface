@@ -120,8 +120,8 @@
   },
   "resistanceLabel" : {
     "type" : "label",
-    "position" : [12, 13],
-    "hAnchor" : "left",
+    "position" : [137, 117],
+    "hAnchor" : "right",
 	"color" : "gray",
 	"fontSize" : 6,
     "wrapWidth" : 100

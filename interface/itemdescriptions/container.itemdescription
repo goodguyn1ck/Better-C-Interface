@@ -8,8 +8,8 @@
     "type" : "label",
     "position" : [25, 3],
     "hAnchor" : "left",
-    "value" : "0",
-	"fontSize" : 7
+	"fontSize" : 7,
+	"color" : [226, 218, 117]
   },	
   "slotCountLabel" : {
     "type" : "label",
@@ -38,12 +38,12 @@
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [137, 21],
+    "position" : [141, 3],
     "hAnchor" : "right",
     "centered" : true,
+	"fontSize" : 7,
 	"color" : "gray",
-    "wrapWidth" : 126,
-	"fontSize" : 7
+    "wrapWidth" : 126
   },
   "title" : {
     "type" : "label",
@@ -60,10 +60,9 @@
   },
   "nameLabel" : {
     "type" : "label",
-    "position" : [141, 3],
-    "hAnchor" : "right",
-    "centered" : true,
-	"fontSize" : 7,
+    "position" : [12, 246],
+    "hAnchor" : "left",
+	"fontSize" : 6,
 	"color" : "gray",
     "wrapWidth" : 126
   },

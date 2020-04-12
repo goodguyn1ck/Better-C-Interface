@@ -8,7 +8,8 @@
     "type" : "label",
     "position" : [25, 3],
     "hAnchor" : "left",
-	"fontSize" : 7
+	"fontSize" : 7,
+	"color" : [226, 218, 117]
   },
   "descriptionLabel" : {
     "type" : "label",
@@ -29,12 +30,12 @@
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [137, 21],
+    "position" : [141, 3],
     "hAnchor" : "right",
     "centered" : true,
-	"color" : "gray",
-    "wrapWidth" : 126,
-	"fontSize" : 7
+	"fontSize" : 7,
+	"color" : "gray",	
+    "wrapWidth" : 126
   },
   "title" : {
     "type" : "label",

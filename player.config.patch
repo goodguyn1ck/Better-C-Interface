@@ -1,19 +1,19 @@
 [
 	// blueprints
 		// crafting tables
-{	"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "mechcraftingtable" }},
-{	"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "mechassemblystation"	}},
+	{	"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "mechcraftingtable" }},
+	{	"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "mechassemblystation"	}},
 
-{	"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "craftingblocks" }},
-{	"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "blockprinter" }},
+	{	"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "craftingblocks" }},
+	{	"op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "blockprinter" }},
 
 	// inventory
-{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "soils" },
-{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "minerals" },
-{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "bricks" },
-{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "wood" },
-{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "industrial" },
-{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "greenary" },
-{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "organic" }
+	{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "soils" },
+	{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "minerals" },
+	{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "bricks" },
+	{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "wood" },
+	{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "industrial" },
+	{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "greenary" },
+	{   "op": "add", "path": "/inventoryFilters/mainBag/categoryBlacklist/-", "value": "organic" }
 
 ]
